@@ -1,0 +1,17 @@
+REACT 
+
+C:\Users\empju\react-app
+
+https://vite.dev/guide/static-deploy
+
+comments: {/* xxx */}
+
+VITE - npm run dev
+
+add pages thru React Router.  main.tsx
+
+
+DATABASE
+https://www.youtube.com/watch?v=IbUmbYKY_Q4
+https://www.youtube.com/watch?v=2HVKizgcfjo - How to Connect HTML Form with MySQL Database using PHP
+

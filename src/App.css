@@ -1,0 +1,536 @@
+body#app {
+  font-family: Lato;
+}
+
+body#app p, body#app ul li {
+  font-size: 16px;
+}
+
+#header, #footer {
+    background: #355041
+}
+#footer {
+    margin-top: 40px;
+    padding: 60px;
+}
+
+#footer p,  #footer h2, #footer a {
+    color: #ccaa79ff
+}
+#header {
+    padding: 2px 50px 30px 50px;
+    margin-bottom: 30px;
+}
+#header a {
+    font-size: 16px;
+    color: #ccaa79ff;
+}
+
+#header .navbar {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.navbar-nav li a {
+    color: orange;
+} 
+.navbar-nav li a:hover {
+    color: yellow;
+} 
+
+{/* SALES PAGE */}
+
+#sales .row {
+    margin-bottom: 30px;
+}
+
+#sales .sales-piece {
+    border: 1px solid gray;
+    width: 266px;
+    margin-right: 80px;
+    padding: 7px 7px 20px;
+}
+#sales .main-info {
+    background-color: rgb(204, 170, 121);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+#sales .main-info p {
+    margin-bottom: 5px;
+}
+#sales .sub-info {
+    padding-left: 20px;
+}
+#sales .sub-info p {
+    margin: 0;
+}
+#sales .sub-info button {
+    padding: 4px 20px;
+    background-color: rgb(204, 170, 121);
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#sales .contact h1 {
+    font-weight: 600;
+    font-size: 28px;
+    color:rgb(204, 170, 121)
+}
+
+#sales .contact h3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#sales .phone, #sales .email, #sales .whatsapp {
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+} 
+#sales .whatsapp {
+    background-color: #37ca37;
+}
+#sales .email {
+    background-color: black;
+}
+#sales .phone {
+    background-color: #355041;
+}
+#sales .phone a {
+    text-decoration: none;
+}
+#sales .price {
+    background-color: rgb(246, 235, 231);
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
+#sales #heading h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+#sales #heading h5 {
+    font-size: 18px;
+    margin: 5px 0 10px;
+}
+#sales #heading h1, #sales #heading h5 {
+    color: #ccaa79ff;
+}
+
+.sales-img {
+    width: 100%;
+    height: 500px;
+    background-position: 30px -100px;
+    background-size: cover;
+}
+.top-section img {
+    width: 100%;
+}
+.block {
+  padding: 20px;
+}
+.block1 {
+  color: white;
+  background-color: #002349
+}
+.block2 {
+  background-color: #355041;
+}
+
+
+#video {
+     position: relative;
+}
+
+#video .info {
+    position: absolute; 
+    left: 50%; 
+    bottom: 111px; 
+    background-color: rgba(34, 139, 34, 0.5); ;
+    padding: 40px;
+}
+#video .info h1 {
+    color: white;
+}
+#video .info button {
+    padding: 10px;
+    font-size: large;
+}
+#ron-image {
+  background: url("./images/ron.png") no-repeat center center / cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+/* ICONS */
+.fa-solid {
+    color: #ccaa79ff;
+    margin-right: 5px;
+}
+.icons {
+	font-size: 18px;
+  	margin: 0 0 20px 20px;
+  	font-family: Roboto, Helvetica, sans-serif;
+}
+.icons span {
+	margin-right: 30px;
+  }
+ .icons p {
+  	min-width: 160px;
+    display: inline-block;
+ }
+  
+#bulletList-XPz00bHMGh ul {
+	list-style-type: disc;  
+}
+#bulletList-XPz00bHMGh ul li::marker {
+  color: #ccaa79ff;
+}
+   
+#language {
+    position: absolute;
+    top: -70px;
+    left: 10%;
+}
+.block2 {
+    padding: 20px 60px;
+    margin-bottom: 60px;
+}
+.block2 h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.block2 div {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.block2 div:first-child {
+    margin-right: 20px;
+    width: 47%;
+}
+.block3 h1 {
+    font-weight: 600;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.block3 button {
+    background-color: #ccaa79ff;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    border: 0
+}
+
+/* CAROUSEL */
+#myCarousel {
+    margin-bottom: 40px;
+}
+
+#Carousel button, #Carousel button {
+    transition: all 1s ease;
+}
+
+#myCarousel button:hover, #myCarousel button:hover {
+    background-color: #eee;
+}
+
+#Carousel img {
+    width: 300px;
+    height: 300px;
+}
+
+.fa-solid {
+    color: #ccaa79ff;
+    margin: 10px 10px 0 0;
+}
+
+.slide-container .name {
+    margin-bottom: 10px;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+#contact {
+    background-color: #f6f4f3;
+    margin: 0;
+    max-width: 100%;
+}
+#contact .livingroom {
+    width: 100%;
+    height: 444px;
+    background: url("./images/living-room02.png") no-repeat center center / cover;
+}
+#contact .livingroom h1 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    padding-top: 22px;
+}
+#contact .livingroom h2 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    padding-top: 22px;
+}
+#contact form {
+    border: 1px solid white;
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+#contact label {
+    font-size: 14px;
+}
+#contact button {
+    font-size: 18px;
+}
+.type {
+    font-size: 10px;
+}
+
+.location {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 14px;
+}
+
+ul.description2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.description2 li {
+    font-size: 12px;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+    border: 1px solid #ccaa79;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.card-content {
+    align-items: normal;
+    padding-left: 60px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.card-image {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #ccaa79;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.card-content .button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #ccaa79ff;
+    border-radius: 6px;
+    margin: 30px 14px 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-content .button:hover {
+    background: #e6d7c1 !important;
+}
+
+.swiper-navBtn {
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #4070F4;
+}
+
+.swiper-navBtn::before, .swiper-navBtn::after {
+    font-size: 38px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white !important;
+    background-color: #ccaa79;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: #e6d7c1 !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+
+.swiper {
+    padding-bottom: 30px !important;
+}
+
+#social-icons-0tq4jhGw2Sd .social-media-icon {
+    background-color: #ccaa79;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ccaa79ff !important;
+}
+
+#row-R1mOCMUprw {
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+
+    ul.description2 li {
+        font-size: 22px;
+    }
+
+    .card-content .button {
+        font-size: 24px;
+    }
+
+    .slide-container .name {
+        font-size: 24px;
+    }
+
+    .hl_page-preview--content .row-R1mOCMUprw {
+        border-width: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #nav-menu-v2-i7SwJF5KVu .menu-item-title-icon {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .icons {
+      font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body img {
+        width: 100%;
+    }
+    ul.description2 li {
+        font-size: 18px;
+    }
+    .type {
+        font-size: 14px;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+    .card-content .button {
+        font-size: 24px;
+    }
+    .block2 div:first-child {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    video {
+        height: 200px;
+    }
+    #video .info {
+        position: static;
+    }
+}
