@@ -2,12 +2,15 @@ import { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+type NewErrors = { name: string; email: string; }
+type Error = { name: string; }
+
 function Contact () {
   const [formData, setformData] = useState({name: "", email: ""});
-  const [error, setError] = useState({});
+  const [error, setError] = useState({ name: "", email: "" });
 
   const validate = () => {
-    let newErrors = {};
+    let newErrors: NewErrors = { name: "", email: "" };
     if(!formData.name){ newErrors.name = "Name is required" }
     if(!formData.email){ newErrors.email = "Email is required" }
 

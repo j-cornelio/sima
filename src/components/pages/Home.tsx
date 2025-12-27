@@ -1,4 +1,4 @@
-import Carousel from "../includes/Carousel2";
+import Carousel from "../includes/Carousel";
 import Video from "./Video";
 import lux_room from "../../images/lux_livingroom.jpg";
 import bedroom from "../../images/bedroom.png";
