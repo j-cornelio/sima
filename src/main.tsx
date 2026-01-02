@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import Contact from './components/pages/Contact'
+import FormComponent from './components/pages/FormComponent.tsx'
 import Sales from './components/pages/Sales'
 import Rentals from './components/pages/Rentals'
 import About from './components/pages/About'
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
   {path:"/", element: <App />},
   {path:"*", element: <NotFound />},
   {path:"/contact", element: <Contact />},
+  {path:"/FormComponent", element: <FormComponent />},
   {path:"/sales", element: <Sales />},
   {path:"/about", element: <About />},
   {path:"/rentals", element: <Rentals />},

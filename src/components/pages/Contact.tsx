@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import myalet from "../../assets/alert.js";
+
 
 type NewErrors = { name: string; email: string; }
 type Error = { name: string; }
@@ -37,10 +39,11 @@ function Contact () {
       <Header />
       <div id="contact" className="container">
           <div className="livingroom">
-            <h1>Mejor Servicio Inmobilario en Santo Domingo</h1>
+            <h1>HOLA! Mejor Servicio Inmobilario en Santo Domingo</h1>
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
-          <form action="" onSubmit={handleSubmit}>
+          {/*onSubmit={handleSubmit}*/}
+          <form action="../../assets/process-form.php" method="post">
             <div className="mb-3">
               <label className="form-label" htmlFor="">Name</label>
               <input className="form-control" type="text" name="name" value={formData.name} onChange={handleChange} />
