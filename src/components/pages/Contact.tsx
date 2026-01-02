@@ -37,7 +37,7 @@ function Contact () {
       <Header />
       <div id="contact" className="container">
           <div className="livingroom">
-            <h1>HELLO! Mejor Servicio Inmobilario en Santo Domingo</h1>
+            <h1>Mejor Servicio Inmobilario en Santo Domingo</h1>
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
           {/*onSubmit={handleSubmit}*/}
@@ -53,6 +53,10 @@ function Contact () {
               <input type="text" className="form-control" name="email" value={formData.email} onChange={handleChange} />
 
               {error.email && <p style={{color: 'red'}}>{error.email}</p>}
+            </div>
+            <div className="mb-3">
+              <label className="form-label" htmlFor="">Message</label>
+              <textarea className="form-control" name="message" />
             </div>
               <button type="submit" className="btn btn-primary">Submit</button>
           </form>
