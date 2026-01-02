@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import myalet from "../../assets/alert.js";
-
 
 type NewErrors = { name: string; email: string; }
 type Error = { name: string; }
