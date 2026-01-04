@@ -41,7 +41,7 @@ function Contact () {
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
           {/*onSubmit={handleSubmit}*/}
-          <form action="./process-form.php" method="post">
+          <form action="../../assets/process-form.php" method="post">
             <div className="mb-3">
               <label className="form-label" htmlFor="">Name</label>
               <input className="form-control" type="text" name="name" value={formData.name} onChange={handleChange} />

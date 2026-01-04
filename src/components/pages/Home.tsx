@@ -2,6 +2,23 @@ import Carousel from "../includes/Carousel";
 import Video from "./Video";
 import lux_room from "../../images/lux_livingroom.jpg";
 import bedroom from "../../images/bedroom.png";
+const mysql = require('mysql');
+
+const db = mysql.createConnection({
+    host: "srv1535.hstgr.io",
+    database: "u707743927_contacts", 
+    user: "jcornelio",
+    password: "33n+=l1iLL"
+})
+
+db.connect((err) => {
+    if(err){
+        console.log('Database connection error: ', err);
+        return
+    }
+
+    console.log('CONNECTED to MYSQL! - GOOD JOB ;)')
+})
 
 function Home () {
     return (
