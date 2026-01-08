@@ -7,7 +7,7 @@ function Userlist () {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        const apiUrl = './action.php'; 
+        const apiUrl = 'api/action.php'; 
 
         fetch(apiUrl)
             .then((res) => res.json())
