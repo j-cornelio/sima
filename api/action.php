@@ -2,9 +2,9 @@
 
     header("Access-Control-Allow-Origin:* ")
     header("Access-Control-Allow-Headers:* ")
-    header("Access-Control- Allow-Methods:* ")
+    header("Access-Control-Allow-Methods:* ")
 
-    $connect = new PDO("mysql:host=srv1535.hstgr.io; dbname:u707743927_contacts; host:", "u707743927_jcornelio", "33n+=l1iLL")
+    $connect = new PDO("mysql:host=srv1535.hstgr.io; dbname:u707743927_contacts;", "u707743927_jcornelio", "33n+=l1iLL")
 
     $method = $_SERVER['REQUEST_METHOD']
 

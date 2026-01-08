@@ -4,20 +4,14 @@ import Footer from "./Footer";
 import { useEffect, useState } from "react";
 
 function Userlist () {
-    const [users, setUsers] = useState();
+    const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        const apiUrl = 'https://sima-rd.net/action.php'; 
+        const apiUrl = '/src/components/action.php'; 
 
         fetch(apiUrl)
-            .then((res) => {
-        console.log('res ---> ', JSON.stringify(res))
-                JSON.stringify(res)
-            })
-            .then((data) => {
-                console.log('data ---> ', data)
-                setUsers(data)
-            })
+            .then((res) => res.json())
+            .then((data) => setUsers(data))
     }, [])
 
     return (
