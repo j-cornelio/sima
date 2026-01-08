@@ -7,6 +7,8 @@ import FormComponent from './components/pages/FormComponent'
 import Sales from './components/pages/Sales'
 import Rentals from './components/pages/Rentals'
 import About from './components/pages/About'
+import Userlist from './components/pages/Userlist'
+import ContactUsers from './components/pages/ContactUsers'
 import NotFound from './components/pages/NotFound'
 import 'bootstrap/dist/css/bootstrap.css'
 import Riviera4B from './components/pages/sales/Riviera-4B'
@@ -30,7 +32,9 @@ const router = createBrowserRouter([
   {path:"/contact", element: <Contact />},
   {path:"/FormComponent", element: <FormComponent />},
   {path:"/sales", element: <Sales />},
+  {path:"/contactUsers", element: <ContactUsers />},
   {path:"/about", element: <About />},
+  {path:"/userlist", element: <Userlist />},
   {path:"/rentals", element: <Rentals />},
   {path:"/sales/riviera-4b", element: <Riviera4B />},
   {path:"/sales/Samana", element: <Samana />},
