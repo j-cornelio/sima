@@ -7,7 +7,7 @@ function Userlist () {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        const apiUrl = 'api/action.php'; 
+        const apiUrl = './api/action.php'; 
 
         fetch(apiUrl)
             .then((res) => res.json())
@@ -20,7 +20,7 @@ function Userlist () {
       <div className="card">
             <div className="card-header">            
                 <div className="row">      
-                    <div className="col-md-6"><b>User Data</b></div>
+                    <div className="col-md-6"><b>User Data XXX</b></div>
                     <div className="col-md-6"><b></b></div>
                 </div>
             </div>
