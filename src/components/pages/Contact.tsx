@@ -6,37 +6,37 @@ import axios from "axios";
 type NewErrors = { name: string; email: string; }
 type Error = { name: string; }
 
+
 function Contact () {
-  const [formData, setformData] = useState({name: "", email: ""});
-  const [error, setError] = useState({ name: "", email: "" });
+    const [formData, setformData] = useState({name: "", email: ""});
+    const [values, setValues] = useState({name: "", email: "", message: ""});
+    const [error, setError] = useState({ name: "", email: "" });
 
-  const validate = () => {
-    let newErrors: NewErrors = { name: "", email: "" };
-    if(!formData.name){ newErrors.name = "Name is required" }
-    if(!formData.email){ newErrors.email = "Email is required" }
+    const validate = () => {
+      let newErrors: NewErrors = { name: "", email: "" };
 
-    setError(newErrors)
+      setError(newErrors)
 
-    return Object.keys(newErrors).length === 0
-  }
+      return Object.keys(newErrors).length === 0
+    }
 
-  const handleChange = (e: any) => {
-    setformData({...formData, [e.target.name]: e.target.value})
-  }
-  const handleSubmit = (e: any) => {
-    {/*
+    const handleChange = (e: any) => {
+        setValues({...values, [e.target.name]: [e.target.value]})
+    }
+    
+    const handleSubmit = (e: any) => {
       e.preventDefault()
-      if(validate()){
-        alert("form submitted");
-        console.log(formData)
-      }
-    */}
-      const url = "./enquiry"
-
-      let fData = new FormData()
-
-      console.log('data - ', fData)
-  }
+      {/*
+        if(validate()){
+          alert("form submitted");
+          console.log(formData)
+        }
+      */}
+          console.log('values - ', values)
+          axios.post('http://localhost:3000/signup', values)
+              .then(res => console.log("Registered SUCESSFULLY"))
+              .catch((err) => console.log('error: ', err))
+    }
 
     return (
     <>
@@ -50,19 +50,19 @@ function Contact () {
           <form>
             <div className="mb-3">
               <label className="form-label" htmlFor="">Name</label>
-              <input className="form-control" type="text" name="name" value={formData.name} onChange={handleChange} />
+              <input className="form-control" type="text" name="name"  onChange={handleChange} />
             
               {error.name && <p style={{color: 'red'}}>{error.name}</p>}
             </div>
             <div className="mb-3">
               <label className="form-label" htmlFor="">Email</label>
-              <input type="text" className="form-control" name="email" value={formData.email} onChange={handleChange} />
+              <input type="text" className="form-control" name="email" onChange={handleChange} />
 
               {error.email && <p style={{color: 'red'}}>{error.email}</p>}
             </div>
             <div className="mb-3">
               <label className="form-label" htmlFor="">Message</label>
-              <textarea className="form-control" name="message" />
+              <textarea className="form-control" name="message" onChange={handleChange} />
             </div>
               <button onClick={handleSubmit} type="submit" className="btn btn-primary">Submit</button>
           </form>

@@ -13,18 +13,11 @@ function Contact () {
   const handleSubmit = (e: any) => {
     e.preventDefault()
 
-    if(name.length === 0) alert("name blank");
-    if(email.length === 0) alert("email blank");
-    if(message.length === 0) alert("message blank");
-
-    const url = './formsubmit02.php'
-
     let fData = new FormData();
     fData.append('name', name);
     fData.append('email', email);
     fData.append('message', message);
-
-    axios.post(url, fData).then((res) => alert(res.data)).catch(err => alert('error -> ' + err))
+console.log('fData - ', fData)
   }
 
     return (
