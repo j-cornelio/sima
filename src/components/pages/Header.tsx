@@ -35,7 +35,7 @@ function Header () {
                         </li>
                         <li className="nav-item">
                             <Link  className="nav-link" to="/contact">
-                                Contacto
+                                Contact uS
                             </Link>
                         </li>
                     </ul>
