@@ -32,8 +32,8 @@ function Contact () {
           console.log(formData)
         }
       */}
-          console.log('values - ', values)
-          axios.post('http://localhost:3000/signup', values)
+          
+          axios.post('http://sima-rd.net:3000/signup', values)
               .then(res => console.log("Registered SUCESSFULLY"))
               .catch((err) => console.log('error: ', err))
     }
