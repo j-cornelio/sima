@@ -43,7 +43,7 @@ function Contact () {
       <Header />
       <div id="contact" className="container">
           <div className="livingroom">
-            <h1>Mejores Servicios Inmobilario en Santo Domingo.</h1>
+            <h1>x. Mejores Servicios Inmobilario en Santo Domingo.</h1>
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
           
