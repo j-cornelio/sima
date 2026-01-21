@@ -33,7 +33,7 @@ function Contact () {
         }
       */}
           
-          axios.post('https://sima-rd.net/api/backend/signup', values)
+          axios.post('http://localhost:3000/api/backend/signup', values)
               .then(res => console.log("values - ", values))
               .catch((err) => console.log('error: ', err))
     }
