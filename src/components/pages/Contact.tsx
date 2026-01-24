@@ -33,8 +33,9 @@ function Contact () {
         }
       */}
           
-          axios.post('https://sima-rd.net/signup', values)
-              .then(res => console.log("values - ", values))
+//          axios.post('http://localhost:3006/contact', values)
+          axios.post('https://api.sima-rd.net/contact', values)
+              .then(res => console.log("CONNECTED! - values -> ", values))
               .catch((err) => console.log('error: ', err))
     }
 
@@ -43,7 +44,7 @@ function Contact () {
       <Header />
       <div id="contact" className="container">
           <div className="livingroom">
-            <h1>2. Mejores Servicios Inmobilario en Santo Domingo.</h1>
+            <h1>3. Mejores Servicios Inmobilario en Santo Domingo.</h1>
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
           
