@@ -28,8 +28,7 @@ function Contact () {
 
       console.log('VALUES SENT - ', values)
 
-      //axios.post('https://api.sima-rd.net/contact', values)    
-      axios.post('http://localhost:3006/contact', values)
+      axios.post('https://api.sima-rd.net/contact', values)    
               .then(res => console.log("CONNECTED! - values -> ", values))
               .catch((err) => console.log('error: ', err))
     }
