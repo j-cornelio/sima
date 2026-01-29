@@ -3,38 +3,33 @@ import Header from "./Header";
 import Footer from "./Footer";
 import axios from "axios";
 
-type NewErrors = { name: string; email: string; }
-type Error = { name: string; }
-
-
 function Contact () {
-    const [formData, setformData] = useState({name: "", email: ""});
-    const [values, setValues] = useState({name: "", email: "", message: ""});
-    const [error, setError] = useState({ name: "", email: "" });
-
-    const validate = () => {
-      let newErrors: NewErrors = { name: "", email: "" };
-
-      setError(newErrors)
-
-      return Object.keys(newErrors).length === 0
-    }
-
+    const [values, setValues] = useState({name: "", email: "", phone: "", message: ""});
+    const [result, setResult] = useState("");
+      
     const handleChange = (e: any) => {
         setValues({...values, [e.target.name]: [e.target.value]})
     }
     
-    const handleSubmit = (e: any) => {
-      e.preventDefault()
-      {/*
-        if(validate()){
-          alert("form submitted");
-          console.log(formData)
-        }
-      */}
-          
-//          axios.post('http://localhost:3006/contact', values)
-          axios.post('https://api.sima-rd.net/contact', values)
+    const onSubmit = async (event: any) => {
+      event.preventDefault()
+      
+      setResult("Sending....");
+      const formData = new FormData(event.target);
+      formData.append("access_key", "b79328e5-f63f-4278-9e6b-8e8595d2b6ce");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+      setResult(data.success ? "Success!" : "Error");
+
+      console.log('VALUES SENT - ', values)
+
+      //axios.post('https://api.sima-rd.net/contact', values)    
+      axios.post('http://localhost:3006/contact', values)
               .then(res => console.log("CONNECTED! - values -> ", values))
               .catch((err) => console.log('error: ', err))
     }
@@ -44,28 +39,34 @@ function Contact () {
       <Header />
       <div id="contact" className="container">
           <div className="livingroom">
-            <h1>3. Mejores Servicios Inmobilario en Santo Domingo.</h1>
+            <h1>Mejores Servicios Inmobilario en Santo Domingo.</h1>
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
           
-          <form>
+          <form onSubmit={onSubmit}>
             <div className="mb-3">
-              <label className="form-label" htmlFor="">Name</label>
-              <input className="form-control" type="text" name="name"  onChange={handleChange} />
-            
-              {error.name && <p style={{color: 'red'}}>{error.name}</p>}
+              <label className="form-label">Name</label>
+              <input onChange={handleChange} className="form-control" type="text" name="name" required />
             </div>
-            <div className="mb-3">
-              <label className="form-label" htmlFor="">Email</label>
-              <input type="text" className="form-control" name="email" onChange={handleChange} />
 
-              {error.email && <p style={{color: 'red'}}>{error.email}</p>}
-            </div>
             <div className="mb-3">
-              <label className="form-label" htmlFor="">Message</label>
-              <textarea className="form-control" name="message" onChange={handleChange} />
+              <label className="form-label">Email</label>
+              <input  onChange={handleChange} type="text" className="form-control" name="email" required />
             </div>
-              <button onClick={handleSubmit} type="submit" className="btn btn-primary">Submit</button>
+
+            <div className="mb-3">
+              <label className="form-label">Celular</label>
+              <input  onChange={handleChange} type="text" className="form-control" name="phone" required />
+            </div>
+
+            <div className="mb-3">
+              <label className="form-label">Message</label>
+              <textarea  onChange={handleChange} className="form-control" name="message" />
+            </div>
+
+            <button type="submit" className="btn btn-primary">Submit</button>
+
+            <p>{result}</p>
           </form>
       </div>
       <Footer />

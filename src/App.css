@@ -294,7 +294,7 @@ body#app p, body#app ul li {
 #contact form {
     border: 1px solid white;
     padding: 50px;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 #contact label {
