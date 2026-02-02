@@ -11,15 +11,15 @@ function Footer () {
                 </div>
                 
                 <div className="col-md-3">
-                    <h2>COMPANY</h2>
+                    <h2>Compañía</h2>
                         <p>
                             <Link  className="nav-link" to="/sales">
-                                Sales
+                                Ventas
                             </Link>
                         </p>
                         <p>
                             <Link  className="nav-link" to="/rentals">
-                                Rentals
+                                Alquiler
                             </Link>
                         </p>
                         <p>
@@ -30,14 +30,17 @@ function Footer () {
                 </div>
                 
                 <div className="col-md-3">
-                    <h2>CUSTOMER CARE</h2>
+                    <h2>Atención Al Cliente</h2>
                     <p>Avenida Malecon 3, Santo Domingo Este Santo Domingo</p>
-                    <p>(849) 507-8318</p>
+                    <p>Ronny Sepulveda: (849) 507-8318</p>
                 </div>
 
                 <div className="col-md-3">
-                    <h2>FOLLOW US</h2>
-                    <p><i>FB</i><i>Inst</i></p>
+                    <h2>Siguenos</h2>
+                    <p className="multimedia">
+                        <i className="fa-brands fa-facebook-f"></i>
+                        <i className="fa-brands fa-square-instagram"></i>
+                    </p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import paseo_200 from '../../images/sales/paseo_200/1.jpeg'
 import livingroom from '../../images/sales/riviera_B4/livingroom.jpeg'
 import kitchen from '../../images/sales/riviera_118/kitchen.jpg'
 import riviera_115 from '../../images/sales/riviera_115/9.png'
@@ -16,6 +17,24 @@ function Sales () {
       <Header />
         <div id="sales" className="container">
              <div className="row">
+                <div className="info col-md-4 sales-piece">
+                  <Link  className="nav-link" to="paseo200">
+                        <img src={paseo_200} width="250px" />
+                  </Link>
+                  <div className="main-info">
+                    <p>$460,000 negociable</p>
+                    <p>Paseo del Carmen Tower</p>
+                  </div>
+                  <div className="sub-info">
+                    <p>3 Dormitorios</p>
+                    <p>4.5 Baños</p>
+                    <p>200 Mt2</p>
+                    <Link  className="nav-link" to="paseo200">
+                      <button>Ver Detalles</button>
+                    </Link>
+                  </div>
+                </div>
+
                 <div className="info col-md-4 sales-piece">
                   <Link  className="nav-link" to="riviera-4b">
                         <img src={livingroom} width="250px" />

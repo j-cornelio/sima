@@ -3,11 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import Contact from './components/pages/Contact'
-import FormComponent from './components/pages/FormComponent'
 import Sales from './components/pages/Sales'
 import Rentals from './components/pages/Rentals'
 import About from './components/pages/About'
-import ContactUsers from './components/pages/ContactUsers'
 import NotFound from './components/pages/NotFound'
 import Riviera4B from './components/pages/sales/Riviera-4B'
 import Samana from './components/pages/sales/Samana'
@@ -23,14 +21,13 @@ import Riviera84 from './components/pages/sales/Riviera84'
 import RentalsRiviera4B from './components/pages/rentals/Riviera-4B'
 import RentalsRiviera118 from './components/pages/rentals/Riviera118'
 import RentalsPaseo165 from './components/pages/rentals/Paseo165'
+import Paseo200 from './components/pages/sales/Paseo200'
 
 const router = createBrowserRouter([
   {path:"/", element: <App />},
   {path:"*", element: <NotFound />},
   {path:"/contact", element: <Contact />},
-  {path:"/FormComponent", element: <FormComponent />},
   {path:"/sales", element: <Sales />},
-  {path:"/contactUsers", element: <ContactUsers />},
   {path:"/about", element: <About />},
   {path:"/rentals", element: <Rentals />},
   {path:"/sales/riviera-4b", element: <Riviera4B />},
@@ -47,7 +44,8 @@ const router = createBrowserRouter([
   {path:"/sales/Riviera84", element: <Riviera84 />},
   {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
-  {path:"/rentals/Paseo165", element: <RentalsPaseo165 />}
+  {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},
+  {path:"/rentals/Paseo200", element: <Paseo200 />}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

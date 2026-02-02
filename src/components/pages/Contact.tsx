@@ -44,7 +44,7 @@ function Contact () {
           
           <form onSubmit={onSubmit}>
             <div className="mb-3">
-              <label className="form-label">Name</label>
+              <label className="form-label">Nombre</label>
               <input onChange={handleChange} className="form-control" type="text" name="name" required />
             </div>
 
@@ -59,7 +59,7 @@ function Contact () {
             </div>
 
             <div className="mb-3">
-              <label className="form-label">Message</label>
+              <label className="form-label">Mensaje</label>
               <textarea  onChange={handleChange} className="form-control" name="message" />
             </div>
 

@@ -7,7 +7,7 @@ body#app p, body#app ul li {
 }
 
 #header, #footer {
-    background: #355041
+    background: #355041 !important
 }
 #footer {
     margin-top: 40px;
@@ -21,16 +21,18 @@ body#app p, body#app ul li {
     padding: 2px 50px 30px 50px;
     margin-bottom: 30px;
 }
-#header a {
-    font-size: 16px;
-    color: #ccaa79ff;
-}
 
 #header .navbar {
     margin: 0;
     margin-top: 10px;
 }
 
+p.multimedia i {
+    font-size: 24px;
+}
+p.multimedia i:first-child {
+    margin-right: 20px; 
+}
 .navbar-nav li a {
     color: orange;
 } 
