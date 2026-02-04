@@ -7,7 +7,7 @@ import image3 from '../../../images/sales/paseo_200/3.jpeg'
 import image4 from '../../../images/sales/paseo_200/4.jpeg'
 import image5 from '../../../images/sales/paseo_200/5.jpeg'
 
-function Riviera165 () {
+function Paseo200 () {
     return ( 
     <>
       <Header />
@@ -105,4 +105,4 @@ function Riviera165 () {
     )
 }
 
-export default Riviera165;
+export default Paseo200;

@@ -45,7 +45,7 @@ const router = createBrowserRouter([
   {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
   {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},
-  {path:"/rentals/Paseo200", element: <Paseo200 />}
+  {path:"/sales/Paseo200", element: <Paseo200 />}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
