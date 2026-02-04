@@ -336,6 +336,10 @@ p.font-body  {
 .phone-email-loc svg {
     color: white;
 }
+.phone a , .email a, .map a {
+    text-decoration: none;
+    color: black;
+}
 .flex {
     display: flex;
 }

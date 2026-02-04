@@ -88,33 +88,33 @@ function Contact () {
             </div>
           </div>
 
-          <div className="flex items-start gap-4">
+          <div className="phone flex items-start gap-4">
             <div className="phone-email-loc h-10 w-10 shrink-0 items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone h-5 w-5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:8095550123"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone h-5 w-5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a>
             </div>
             <div>
               <p className="font-body font-medium text-foreground">Teléfono</p>
-              <p className="font-body text-muted-foreground">+1 (809) 555-0123</p>
+              <p className="font-body text-muted-foreground"><a href="tel:8495078318">(849) 507-8318</a></p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4">
+          <div className="email flex items-start gap-4">
             <div className="phone-email-loc flex h-10 w-10 shrink-0 items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail h-5 w-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              <a href="mailto:empjulio@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail h-5 w-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
             </div>
             <div>
               <p className="font-body font-medium text-foreground">Correo electrónico</p>
-              <p className="font-body text-muted-foreground">info@artedominicano.com</p>
+              <p className="font-body text-muted-foreground"><a href="mailto:empjulio@gmail.com">empjulio@gmail.com</a></p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4">
+          <div className="map flex items-start gap-4">
             <div className="phone-email-loc flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-prime">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin h-5 w-5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <a target="_blank" href="https://share.google/9dEmPje0GJHvNRqe2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin h-5 w-5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg></a>
             </div>
             <div>
               <p className="font-body font-medium text-foreground">Ubicación</p>
-              <p className="font-body text-muted-foreground">Zona Colonial, Santo Domingo<br />República Dominicana</p>
+              <p className="font-body text-muted-foreground"><a target="_blank" href="https://share.google/9dEmPje0GJHvNRqe2">Zona Colonial, Santo Domingo<br />República Dominicana</a></p>
             </div>
           </div>
 
