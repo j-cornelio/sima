@@ -42,6 +42,8 @@ function Contact () {
             <h2>¡Póngase en contacto con nosotros para obtener asesoramiento inmobiliario experto y un servicio personalizado!</h2>
           </div>
           
+        <div className="row align-items-start">
+        <div className="col">
           <form onSubmit={onSubmit}>
             <div className="mb-3">
               <label className="form-label">Nombre</label>
@@ -67,6 +69,57 @@ function Contact () {
 
             <p>{result}</p>
           </form>
+        </div>
+        <div  className="col">
+          <div className="whatsapp">
+            <div className="p-6">
+              <div className="w-inner">
+                <div  className="w-icon-wrapper flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-message-circle h-6 w-6"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg></div><div>
+                    <h3 className="font-display text-lg font-semibold text-foreground">WhatsApp - Respuesta Rápida</h3>
+                    <p className="mt-1 font-body text-sm text-muted-foreground">¿Prefieres una respuesta inmediata? Escríbenos directamente por WhatsApp.</p>
+                    <br />
+                    <a href="https://w.app/simard" target="_blank" rel="noopener noreferrer" className="w-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-message-circle mr-2 h-4 w-4">
+                    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+                    Abrir WhatsApp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <div className="phone-email-loc h-10 w-10 shrink-0 items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone h-5 w-5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div>
+              <p className="font-body font-medium text-foreground">Teléfono</p>
+              <p className="font-body text-muted-foreground">+1 (809) 555-0123</p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <div className="phone-email-loc flex h-10 w-10 shrink-0 items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail h-5 w-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </div>
+            <div>
+              <p className="font-body font-medium text-foreground">Correo electrónico</p>
+              <p className="font-body text-muted-foreground">info@artedominicano.com</p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <div className="phone-email-loc flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-prime">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin h-5 w-5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <p className="font-body font-medium text-foreground">Ubicación</p>
+              <p className="font-body text-muted-foreground">Zona Colonial, Santo Domingo<br />República Dominicana</p>
+            </div>
+          </div>
+
+        </div>
+        </div>
       </div>
       <Footer />
     </>

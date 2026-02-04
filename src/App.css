@@ -228,7 +228,12 @@ p.multimedia i:first-child {
     font-size: 35px;
     margin: 20px 0;
 }
-
+.text-foreground {
+    color: hsl(var(--foreground));
+}
+p.font-body  {
+    margin-bottom: 0;
+}
 .block3 button {
     background-color: #ccaa79ff;
     padding: 10px 20px;
@@ -296,7 +301,7 @@ p.multimedia i:first-child {
 #contact form {
     border: 1px solid white;
     padding: 50px;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
 }
 #contact label {
@@ -304,6 +309,59 @@ p.multimedia i:first-child {
 }
 #contact button {
     font-size: 18px;
+}
+#contact .whatsapp {
+    border: 1px solid #25d3664d;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #25d3660d;
+    margin-top: 50px;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+.items-start {
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.phone-email-loc {
+    display: flex;
+    background-color: green;
+    border-radius: 50px;
+    padding: 10px;
+}
+.phone-email-loc svg {
+    color: white;
+}
+.flex {
+    display: flex;
+}
+.w-icon-wrapper {
+    background-color: rgb(37 211 102);
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+a.w-link {
+    background-color: rgb(37 211 102);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+a.w-link svg {
+    margin-right: 10px;
+}
+.w-inner {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
 }
 .type {
     font-size: 10px;
