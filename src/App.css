@@ -91,20 +91,26 @@ p.multimedia i:first-child {
 
 #sales .phone, #sales .email, #sales .whatsapp {
     border-radius: 40px;
-    padding: 20px;
-    font-size: 25px;
+    padding: 4px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
     color: white;
 } 
 #sales .whatsapp {
     background-color: #37ca37;
+} 
+#sales .whatsapp a {
+    background-color: transparent;
 }
 #sales .email {
     background-color: black;
 }
 #sales .phone {
     background-color: #355041;
+}
+#sales .phone a {
+    color: white;
 }
 #sales .phone a {
     text-decoration: none;
@@ -127,6 +133,12 @@ p.multimedia i:first-child {
 }
 #sales #heading h1, #sales #heading h5 {
     color: #ccaa79ff;
+}
+
+#sales li.areas-header {
+    font-weight: bolder;
+    margin: 10px 0;
+    list-style: none;
 }
 
 .sales-img {
