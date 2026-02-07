@@ -246,7 +246,7 @@ p.multimedia i:first-child {
 p.font-body  {
     margin-bottom: 0;
 }
-.block3 button {
+button.buttonstyle {
     background-color: #ccaa79ff;
     padding: 10px 20px;
     font-size: 14px;

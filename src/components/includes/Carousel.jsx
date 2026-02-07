@@ -9,7 +9,6 @@ import balcony from '../../images/sales/paseo_220/balcony.jpg'
 import paseo_190 from '../../images/sales/paseo_190/1.jpg'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 
-
 class Carousel extends React.Component {
     componentDidMount() {
         var swiper = new Swiper(".slide-content", {
@@ -67,12 +66,13 @@ class Carousel extends React.Component {
                                 <li><i className="fa-solid fa-bed"></i>10 Aptos. De 1hbt. De 70M²</li> 
                                 <li><i className="fa-solid fa-car"></i>Piscina</li> 
                                 <li><i className="fa-solid fa-car"></i>2 Bares & 1 Restaurante</li> 
-                            </ul>          
+                            </ul>
                              <Link to="./sales/SalesRiviera4B"> 
                                 <button className="button">Ver Detalles</button>
                             </Link>
                         </div>
                     </div>
+
                     {/* carousel - Samana */}
                     <div className="card swiper-slide">
                          <Link to="./sales/Samana"> 
@@ -97,7 +97,7 @@ class Carousel extends React.Component {
                         </div>
                     </div>
 
-                                        {/* carousel - Riviera 156 RivieraPentHouse */}
+                    {/* carousel - Riviera 156 RivieraPentHouse */}
                     <div className="card swiper-slide">
                          <Link to="./sales/RivieraPentHouse">
                             <div className="image-content">
@@ -168,13 +168,14 @@ class Carousel extends React.Component {
                             </Link>
                         </div>
                     </div>
+
                     {/* carousel - Paseo 220 */}
                     <div className="card swiper-slide">
                         <div className="image-content">
                         <span className="overlay"></span>
-                        <a href="https://sima-rd.com/sales-paseo220"> 
+                        <Link to="./sales/paseo220">  
                             <img src={balcony} alt="" className="card-img" />
-                        </a>
+                        </Link>
                         </div>
                         <div className="card-content">          
                             <p className="type">APARTAMENTO</p>
@@ -186,18 +187,19 @@ class Carousel extends React.Component {
                                 <li><i className="fa-solid fa-car"></i>3 Aparcamientos</li> 
                                 <li><i className="fa-solid fa-ruler"></i>220 Metros Cuadrados</li>
                             </ul>
-                            <a href="https://sima-rd.com/sales-paseo220"> 
+                            <Link to="./sales/paseo220">
                                 <button className="button">Ver Detalles</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
+
                     {/* carousel - Paseo 190 */}
                     <div class="card swiper-slide">
                         <div class="image-content">
                         <span class="overlay"></span>
-                        <a href="https://sima-rd.com/sales-paseo190">
+                        <Link to="./sales/paseo190">
                             <img src={paseo_190} alt="" class="card-img" />
-                        </a>
+                        </Link>
                         </div>
                         <div class="card-content">
                             <p class="type">APARTAMENTO</p>
@@ -209,18 +211,19 @@ class Carousel extends React.Component {
                                 <li><i class="fa-solid fa-car"></i>3 Aparcamientos</li> 
                                 <li><i class="fa-solid fa-ruler"></i>190 Metros Cuadrados</li>
                             </ul>
-                            <a href="https://sima-rd.com/sales-paseo190"> 
+                            <Link to="./sales/paseo190">
                                 <button class="button">Ver Detalles</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
+
                     {/* carousel - Paseo 165 */}
                     <div class="card swiper-slide">
                         <div class="image-content">
                             <span class="overlay"></span>
-                            <a href="https://sima-rd.com/sales-paseo165"> 
+                            <Link to="./sales/paseo165">
                                 <img src={paseo_165} alt="" class="card-img" />
-                            </a>
+                            </Link>
                         </div>
                         <div class="card-content">
                             <p class="type">APARTAMENTO</p>
@@ -232,13 +235,12 @@ class Carousel extends React.Component {
                                 <li><i class="fa-solid fa-car"></i>3 Aparcamientos</li> 
                                 <li><i class="fa-solid fa-ruler"></i>165 Metros Cuadrados</li>
                             </ul>
-                            <a href="https://sima-rd.com/sales-paseo165"> 
+                            <Link to="./sales/paseo165">
                                 <button class="button">Ver Detalles</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
-
-                    {/* cards end */}
+            {/* cards end */}
                 </div>
             </div>
             <div className="swiper-button-next swiper-navBtn"></div>
