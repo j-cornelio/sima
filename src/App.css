@@ -305,6 +305,7 @@ button.buttonstyle {
     background-color: #f6f4f3;
     margin: 0;
     max-width: 100%;
+    padding: 0;
 }
 #contact .livingroom {
     width: 100%;
@@ -317,6 +318,7 @@ button.buttonstyle {
     color: white;
     font-size: 50px;
     padding-top: 22px;
+    margin-top: 0;
 }
 #contact .livingroom h2 {
     text-align: center;
@@ -555,6 +557,9 @@ ul.description2 li {
 }
 
 @media screen and (max-width: 768px) {
+    .icons {
+        font-size: 22px;
+    }
     .slide-content {
         margin: 0 10px;
     }
@@ -587,9 +592,16 @@ ul.description2 li {
     }
 }
 
-@media screen and (max-width: 768px) {
-  .icons {
-      font-size: 22px;
+@media (max-width: 600px) {
+    /* collapse columns */
+  .row {
+    flex-direction: column;
+  }
+  #contact .livingroom h1 {
+    font-size: 35px;
+  }
+    #contact .livingroom h2 {
+        font-size: 25px;
   }
 }
 
