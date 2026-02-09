@@ -8,9 +8,9 @@ import bedroom from "../../images/bedroom.png";
 function Home () {
     return (
         <div className="container-fluid">
+                    <Video />
             <div className="card mt-4">            
                 <div className="card-body">
-                    <Video />
 
                     <Carousel />
                     <div>

@@ -1,3 +1,8 @@
+:root {
+  --brand-gold: #ccaa79ff;
+  --brand-green: #355041 ;
+}
+
 body#app {
   font-family: Lato;
 }
@@ -7,7 +12,7 @@ body#app p, body#app ul li {
 }
 
 #header, #footer {
-    background: #355041 !important
+    background: var(--brand-green) 
 }
 #footer {
     margin-top: 40px;
@@ -18,10 +23,12 @@ body#app p, body#app ul li {
     color: #ccaa79ff
 }
 #header {
-    padding: 2px 50px 30px 50px;
-    margin-bottom: 30px;
+    padding: 2px 50px 50px 50px;
+    margin: 0;
 }
-
+.container-fluid {
+    padding: 0
+}
 #header .navbar {
     margin: 0;
     margin-top: 10px;
@@ -64,6 +71,7 @@ p.multimedia i:first-child {
 }
 #sales .sub-info {
     padding-left: 20px;
+    text-align: left;
 }
 #sales .sub-info p {
     margin: 0;
@@ -78,12 +86,19 @@ p.multimedia i:first-child {
     margin-top: 10px;
     margin-left: 40px;
 }
-#sales .contact h1 {
+h1 {
     font-weight: 600;
-    font-size: 28px;
-    color:rgb(204, 170, 121)
+    font-size: 30px;
+    color: var(--brand-gold);
+    margin: 30px 0 30px;
 }
-
+#sales {
+    text-align: center;
+}
+#sales .row {
+    display: flex;
+    justify-content: center; 
+}
 #sales .contact h3 {
     font-weight: 600;
     margin-top: 10px;
@@ -602,9 +617,6 @@ ul.description2 li {
     .block2 div:first-child {
         width: 100%;
         margin: 0 0 20px 0;
-    }
-    video {
-        height: 200px;
     }
     #video .info {
         position: static;

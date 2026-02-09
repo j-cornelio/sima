@@ -16,6 +16,8 @@ function Sales () {
     <>
       <Header />
         <div id="sales" className="container">
+          
+            <h1>Propiedades Residenciales En Venta</h1>
 
 {/* ROW 1 */}
 
