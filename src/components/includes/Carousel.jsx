@@ -45,7 +45,7 @@ class Carousel extends React.Component {
   render() {
       return (
         <div id="Carousel" className="slide-container swiper">
-            <h1>Apartamentos destacados</h1>
+            <h1 className="main-header">Apartamentos destacados</h1>
             <div className="slide-content">
                 <div className="card-wrapper swiper-wrapper">
 
@@ -58,7 +58,7 @@ class Carousel extends React.Component {
                             </div>
                         </Link>
                         <div className="card-content">
-                            <p className="type">CONDOTEL</p>
+                            <h6 className="type">CONDOTEL</h6>
                             <h3 className="location">Bavaro</h3>
                             <p className="price">VENTA $5,500,000</p>
                             <ul className="description2">
@@ -83,7 +83,7 @@ class Carousel extends React.Component {
                             </div>
                        </Link>
                         <div className="card-content">
-                            <p className="type">6 VILLAS</p>
+                            <h6 className="type">6 VILLAS</h6>
                             <h3 className="location">Samana</h3>
                             <p className="price">VENTA $1,800,000</p>
                             <ul className="description2">
@@ -106,9 +106,9 @@ class Carousel extends React.Component {
                             </div>
                         </Link>
                         <div className="card-content">
-                            <p className="type">APARTAMENTO</p>
+                            <h6 className="type">APARTAMENTO</h6>
                             <h3 className="location">Santo Domingo Este</h3>
-                            <p className="price">Precio: $280,000 negociable</p>
+                            <p className="price">VENTA: $280,000 neg</p>
                             <ul className="description2">
                                 <li><i className="fa-solid fa-bed"></i>3 Dormitorios</li> 
                                 <li><i className="fa-solid fa-bath"></i>3.5 Baños</li> 
@@ -130,7 +130,7 @@ class Carousel extends React.Component {
                             </div>
                         </Link>
                         <div className="card-content">
-                            <p className="type">APARTAMENTO</p>
+                            <h6 className="type">APARTAMENTO</h6>
                             <h3 className="location">Villa Duarte Viejo</h3>
                             <p className="price">VENTA $230,000/Alquila $1,700 m</p>
                             <ul className="description2">
@@ -154,7 +154,7 @@ class Carousel extends React.Component {
                             </div>
                         </Link>
                         <div class="card-content">
-                            <p class="type">APARTAMENTO</p>
+                            <h6 class="type">APARTAMENTO</h6>
                             <h3 class="location">Villa Duarte Viejo</h3>
                             <p class="price">VENTA $185,000/Alquilar $1,500 m</p>
                             <ul class="description2">
@@ -178,7 +178,7 @@ class Carousel extends React.Component {
                         </Link>
                         </div>
                         <div className="card-content">          
-                            <p className="type">APARTAMENTO</p>
+                            <h6 className="type">APARTAMENTO</h6>
                             <h3 className="location">Paseo del Carmen</h3>
                             <p className="price">VENTA $377,000</p>
                             <ul className="description2">
@@ -202,7 +202,7 @@ class Carousel extends React.Component {
                         </Link>
                         </div>
                         <div class="card-content">
-                            <p class="type">APARTAMENTO</p>
+                            <h6 class="type">APARTAMENTO</h6>
                             <h3 class="location">Paseo del Carmen</h3>
                             <p class="price">VENTA $390,800</p>
                             <ul class="description2">
@@ -226,7 +226,7 @@ class Carousel extends React.Component {
                             </Link>
                         </div>
                         <div class="card-content">
-                            <p class="type">APARTAMENTO</p>
+                            <h6 class="type">APARTAMENTO</h6>
                             <h3 class="location">Paseo del Carmen</h3>
                             <p class="price">VENTA $335,000</p>
                             <ul class="description2">

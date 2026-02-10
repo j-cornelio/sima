@@ -10,13 +10,14 @@ function Video () {
             </video>
             <div className="info">
                 <h1>¿Listo para comenzar un nuevo capítulo?</h1>
-                
-                <Link className="nav-link" to="/sales">
-                    <button>Compra Tu Casa</button>
-                </Link>
-                <Link className="nav-link" to="/contact">
-                    <button>Vende Tu Casa</button>
-                </Link>
+                <div>
+                    <Link className="nav-link" to="/sales">
+                        <button>Compra Tu Casa</button>
+                    </Link>
+                    <Link className="nav-link" to="/contact">
+                        <button>Vende Tu Casa</button>
+                    </Link>
+                </div>
             </div>
         </div>
     )
