@@ -883,6 +883,10 @@ nav input{
     
     #video .info h1 {
         margin-top: 0;
+        font-size: 24px;
+    }
+    #video .info div {
+        justify-content: center;
     }
 }
 
