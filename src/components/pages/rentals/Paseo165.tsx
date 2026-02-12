@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
-import livingroom from '../../../images/sales/riviera_B4/livingroom.jpeg'
-import image2 from '../../../images/sales/riviera_B4/2.jpg'
-import image3 from '../../../images/sales/riviera_B4/3.jpg'
+import image0 from '../../../images/sales/paseo_165/20.jpeg'
+import image1 from '../../../images/sales/paseo_165/21.jpeg'
+import image2 from '../../../images/sales/paseo_165/22.jpeg'
+import image3 from '../../../images/sales/paseo_165/23.jpeg'
+import image4 from '../../../images/sales/paseo_165/24.jpeg'
 
 function Riviera165 () {
     return ( 
@@ -22,18 +24,26 @@ function Riviera165 () {
                 <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
                 </ol>
 
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + livingroom}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image0}}></div>
                     </div>
                     <div className="item active">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image1}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image2}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image4}}></div>
                     </div>
                 </div>
 
