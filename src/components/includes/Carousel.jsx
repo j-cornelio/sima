@@ -123,7 +123,7 @@ class Carousel extends React.Component {
 
                     {/* Riviera B4 */}
                     <div className="card swiper-slide">
-                        <Link to="./sales/SalesRiviera4B">
+                        <Link to="./sales/riviera-4b">
                             <div className="image-content">
                                 <span className="overlay"></span>
                                 <img src={livingroom} className="card-img" width="160px" />
