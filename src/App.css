@@ -704,7 +704,9 @@ font-weight: 600;
     #sales .row .contact {
         width: 100%;
     }
-
+    .sales-img {
+        height: 320px;
+    }
   .wrapper .btn{
     display: block;
   }
