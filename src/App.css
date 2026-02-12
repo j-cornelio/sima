@@ -879,11 +879,13 @@ nav input{
     #video .info {
         position: static;
         margin-top: -10px;
+        padding: 24px;
     }
     
     #video .info h1 {
         margin-top: 0;
         font-size: 20px;
+        text-align: center;
     }
     #video .info div {
         justify-content: center;
