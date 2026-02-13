@@ -51,7 +51,7 @@ function SalesRiviera4B () {
             {/* bottom 2 Cols */}
             </div>
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 content">
                     <h1 className="price">Precio: $1,700 mensual</h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-bed"></i> <span>3 Habitaciones</span></p>

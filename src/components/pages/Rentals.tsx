@@ -9,9 +9,11 @@ function Rentals () {
     return (
     <>
       <Header />
+      <div id="rentals">
         <div id="sales" className="container">
           <h1>Propiedades Residenciales En Alquiler</h1>
             <div className="row">
+              
               <div className="info col-md-4 sales-piece">
                 <Link  className="nav-link" to="./Riviera4B">
                       <img src={livingroom} width="250px" />
@@ -66,6 +68,7 @@ function Rentals () {
                 </div>
               </div>
             </div>
+      </div>
       </div>
       <Footer />
     </>

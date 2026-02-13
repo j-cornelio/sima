@@ -61,7 +61,7 @@ function Riviera165 () {
             {/* bottom 2 Cols */}
             </div>
             <div className="row">
-                <div className="col-md-6" style={{width: "70%"}}>
+                <div className="col-md-6 content">
                     <h1 className="price">Precio: $335,000 negociable</h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-bed"></i> <span>2/3 Habitaciones</span></p>
@@ -89,7 +89,7 @@ function Riviera165 () {
                         <li>Aires Acond Sala y habitaciones</li>
                     </ul>
                 </div>
-                <div className="col-md-6 contact" style={{width: "30%", textAlign: "center"}}>
+                <div className="col-md-6 contact">
                     <h1>Contactanos</h1>
                     <div id="ron-image"></div>
                     <h3>Ronny Sepulveda</h3>

@@ -51,7 +51,7 @@ function SalesRiviera4B () {
             {/* bottom 2 Cols */}
             </div>
             <div className="row">
-                <div className="col-md-6" style={{width: "70%"}}>
+                <div className="col-md-6 content">
                     <h1 className="price">Precio: $1,800,000</h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-bed"></i> <span>32 Habitaciones</span></p>
@@ -129,7 +129,7 @@ function SalesRiviera4B () {
                     <p><strong>Observaciones</strong></p>
                     <p>Las villas requieren inversión en terminación, el terreno cuenta con permisos para desarrollar proyecto de 20 villas más</p>
                 </div>
-                <div className="col-md-6" style={{width: "30%", textAlign: "center"}}>
+                <div className="col-md-6 contact">
                     <h1>Contactanos</h1>
                     <div id="ron-image"></div>
                     <h3>Ronny Sepulveda</h3>

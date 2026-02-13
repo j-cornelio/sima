@@ -160,7 +160,8 @@ h1 {
     font-size: 18px;
     margin: 5px 0 10px;
 }
-#sales #heading h1, #sales #heading h5 {
+#sales #heading h1, 
+#sales #heading h5 {
     color: #ccaa79ff;
 }
 
@@ -189,7 +190,6 @@ h1 {
 .block2 {
   background-color: #355041;
 }
-
 
 #video {
      position: relative;
@@ -829,6 +829,22 @@ font-weight: 600;
 
 
 @media screen and (max-width: 768px) {
+    #rentals #sales .nav-linkn {
+        height: 234px;
+    }
+    #sales h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #sales .sales-piece {
+        margin: 0 auto 30px;
+    }
+    .sales-img {
+            background-position: 30% 50%;
+    }
+    #sales .row {
+        margin-bottom: 0;
+    }
     /* collapse columns */
   .row {
     flex-direction: column;
