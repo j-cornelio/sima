@@ -79,7 +79,7 @@ function Contact () {
                     <h3 className="font-display text-lg font-semibold text-foreground">WhatsApp - Respuesta Rápida</h3>
                     <p className="mt-1 font-body text-sm text-muted-foreground">¿Prefieres una respuesta inmediata? Escríbenos directamente por WhatsApp.</p>
                     <br />
-                    <a href="https://w.app/simard" target="_blank" rel="noopener noreferrer" className="w-link">
+                <a href="https://wa.me/118495078318?text=%E2%80%8E%20Saludos" target="_blank" className="w-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-message-circle mr-2 h-4 w-4">
                     <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
                     Abrir WhatsApp</a>
