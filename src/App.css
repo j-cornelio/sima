@@ -832,7 +832,11 @@ font-weight: 600;
     #rentals #sales .nav-linkn {
         height: 234px;
     }
-    #sales h1 {
+    #sales #heading h1 {
+        margin-bottom: 0;;
+    }
+
+        #sales h1, #sales h5 {
         margin-bottom: 20px;
         text-align: center;
     }

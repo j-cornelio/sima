@@ -11,7 +11,7 @@ function Footer () {
                 </div>
                 
                 <div className="col-md-3">
-                    <h2>Compañía</h2>
+                    <h2>COMPAÑÍA</h2>
                         <p>
                             <Link  className="nav-link" to="/sales">
                                 Ventas
@@ -30,13 +30,13 @@ function Footer () {
                 </div>
                 
                 <div className="col-md-3">
-                    <h2>Atención Al Cliente</h2>
+                    <h2>ATENCION AL CLIENTE</h2>
                     <p>Avenida Malecon 3, Santo Domingo Este Santo Domingo</p>
                     <p>Ronny Sepulveda: (849) 507-8318</p>
                 </div>
 
                 <div className="col-md-3">
-                    <h2>Siguenos</h2>
+                    <h2>SIGUENOS</h2>
                     <p className="multimedia">
                         <Link target="_blan" to="https://www.facebook.com/sima.rep.dom">
                             <i className="fa-brands fa-facebook-f"></i>
