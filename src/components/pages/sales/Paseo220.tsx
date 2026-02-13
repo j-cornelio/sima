@@ -1,6 +1,7 @@
 
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import livingroom from '../../../images/sales/paseo_220/21.jpg'
 import image2 from '../../../images/sales/paseo_220/22.jpg'
 import image3 from '../../../images/sales/paseo_220/23.jpg'
@@ -104,9 +105,7 @@ function Paseo220 () {
                     </ul>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
+                    <ContactPerson />
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import image1 from '../../../images/sales/paseo_190/31.jpg'
 import image2 from '../../../images/sales/paseo_190/32.jpg'
 import image3 from '../../../images/sales/paseo_190/33.jpg'
@@ -86,7 +87,7 @@ function Paseo190 () {
                         <li>Balcón</li>
                    </ul>
                    <ul>
-                        <li><strong>Áreas Sociales y Terrazas</strong></li>
+                        <li><strong>Áreas Sociales y Terrazas:</strong></li>
                         <li>Parques</li>
                         <li>Gimnasio</li>
                         <li>2 salones de eventos</li>
@@ -97,9 +98,7 @@ function Paseo190 () {
                    </ul>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
+                    <ContactPerson />
                 </div>
             </div>
         </div>

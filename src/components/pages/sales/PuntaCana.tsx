@@ -1,6 +1,7 @@
 
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import image1 from '../../../images/sales/Villa_Punta_Cana/3.jpeg'
 import image2 from '../../../images/sales/Villa_Punta_Cana/2.jpeg'
 import image3 from '../../../images/sales/Villa_Punta_Cana/4.jpeg'
@@ -68,8 +69,8 @@ function SalesRiviera4B () {
                     </div>
                     <h2>Descripcion</h2>
                     <p>Un projedto sumamente bello y lucrativo. Tiene varios carritos de golf para trasladar a los huéspedes a la playa, esta ubicado a 3 minutos del cortecito en villas bárbaro</p>
-                    <h2>Reflejos:</h2>
                     
+                    <h2>Reflejos:</h2>
                     <ul>
                         <li>32 Apartamentos en total</li>
                         <li>22 Aptos de 2hbt. De 88M²</li>
@@ -81,9 +82,7 @@ function SalesRiviera4B () {
                     </ul>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
+                    <ContactPerson />
                 </div>
             </div>
         </div>

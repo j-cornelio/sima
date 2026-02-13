@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import image1 from '../../../images/sales/riviera_B4/21.png'
 import image2 from '../../../images/sales/riviera_B4/22.png'
 import image3 from '../../../images/sales/riviera_B4/23.png'
@@ -78,7 +79,7 @@ function SalesRiviera4B () {
                         <li>Comedor</li>
                         <li>Cocina</li>
                         <li>Balcón</li>
-                        <li>Áreas sociales</li>
+                        <li><strong>Áreas Sociales:</strong></li>
                         <li>3 piscinas</li>
                         <li>3 terrazas</li>
                         <li>Sendero de caminar</li>
@@ -88,13 +89,7 @@ function SalesRiviera4B () {
                     </ul>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
-                    <p>Agente & administrador de propiedades</p>
-                    <div className="whatsapp">(849) 507-8318</div>
-                    <div className="phone"><Link to="tel:849-507-8318">LLAMENOS</Link></div>
-                    <div className="email">ENVIAR CORREO</div>
+                    <ContactPerson />
                 </div>
             </div>
         </div>

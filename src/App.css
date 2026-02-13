@@ -138,10 +138,12 @@ h1 {
 #sales .phone {
     background-color: #355041;
 }
-#sales .phone a {
+.phone a, 
+.email a, 
+.email .fa-solid,
+.phone .fa-solid,
+.map a {
     color: white;
-}
-#sales .phone a {
     text-decoration: none;
 }
 #sales .price {
@@ -394,10 +396,6 @@ button.buttonstyle {
 }
 .phone-email-loc svg {
     color: white;
-}
-.phone a , .email a, .map a {
-    text-decoration: none;
-    color: black;
 }
 .flex {
     display: flex;

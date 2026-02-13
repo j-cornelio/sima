@@ -27,13 +27,18 @@ function Header () {
           <ul className="nav-links">
             <label htmlFor="close-btn" className="btn close-btn"><i className="fas fa-times"></i></label>
             <li>
-              <Link  className="nav-link" to="/sales">
+              <Link className="nav-link" to="/sales">
                 Ventas
             </Link>
             </li>
             <li>
-               <Link  className="nav-link" to="/rentals">
+               <Link className="nav-link" to="/rentals">
                   Alquileres
+              </Link>
+            </li>
+            <li>
+               <Link className="nav-link" to="/contact">
+                  Contacto
               </Link>
             </li>
             

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import image0 from '../../../images/sales/paseo_165/20.jpeg'
 import image1 from '../../../images/sales/paseo_165/21.jpeg'
 import image2 from '../../../images/sales/paseo_165/22.jpeg'
@@ -78,7 +79,7 @@ function Riviera165 () {
                         <li>Cocina</li>
                         <li>Balcón doble</li>
                         <li>Sala</li>
-                        <li><strong>Áreas sociales</strong></li>
+                        <li><strong>Áreas Sociales:</strong></li>
                         <li>Terrazas</li>
                         <li>Parque</li>
                         <li>2 salones de eventos</li>
@@ -90,13 +91,7 @@ function Riviera165 () {
                     </ul>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
-                    <p>Agente & administrador de propiedades</p>
-                    <div className="whatsapp">(849) 507-8318</div>
-                    <div className="phone"><Link to="tel:849-507-8318">LLAMENOS</Link></div>
-                    <div className="email">ENVIAR CORREO</div>
+                    <ContactPerson />
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import livingroom from '../../../images/sales/riviera_B4/livingroom.jpeg'
 import image2 from '../../../images/sales/riviera_B4/2.jpg'
 import image3 from '../../../images/sales/riviera_B4/3.jpg'
@@ -72,7 +73,6 @@ function SalesRiviera4B () {
                         <li>Comedo</li>
                     </ul>
                     
-
                     <ul>
                         <li><strong>Villa Mango 250M²</strong></li>
                         <li>2 habitaciones</li>
@@ -105,6 +105,7 @@ function SalesRiviera4B () {
                         <li>Comedor</li>
                         <li>Patio</li>
                     </ul>
+
                     <ul>
                         <li><strong>Villa banana 200M²</strong></li>
                         <li>2 habitaciones</li>
@@ -115,6 +116,7 @@ function SalesRiviera4B () {
                         <li>Comedor</li>
                         <li>Patio</li>
                     </ul>
+
                     <ul>
                         <li><strong>Villa Sandía 300M²</strong></li>
                         <li>2 habitaciones</li>
@@ -130,9 +132,7 @@ function SalesRiviera4B () {
                     <p>Las villas requieren inversión en terminación, el terreno cuenta con permisos para desarrollar proyecto de 20 villas más</p>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
+                    <ContactPerson />
                 </div>
             </div>
         </div>

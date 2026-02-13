@@ -1,6 +1,7 @@
 
 import Header from "../Header";
 import Footer from "../Footer";
+import ContactPerson from "../../includes/ContactPerson";
 import image1 from '../../../images/sales/riviera_156/6.jpeg'
 import image2 from '../../../images/sales/riviera_156/2.jpeg'
 import image3 from '../../../images/sales/riviera_156/3.jpeg'
@@ -68,7 +69,7 @@ function SalesRiviera4B () {
                         <li>Comedor</li>
                         <li>Cocina</li>
                         <li>Balcón</li>
-                        <li><strong>Áreas sociales</strong></li>
+                        <li><strong>Áreas Sociales:</strong></li>
                         <li>3 piscinas</li>
                         <li>3 terrazas</li>
                         <li>Sendero de caminar</li>
@@ -78,9 +79,7 @@ function SalesRiviera4B () {
                     </ul>
                 </div>
                 <div className="col-md-6 contact">
-                    <h1>Contactanos</h1>
-                    <div id="ron-image"></div>
-                    <h3>Ronny Sepulveda</h3>
+                    <ContactPerson />
                 </div>
             </div>
         </div>
