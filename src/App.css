@@ -131,6 +131,7 @@ h1 {
 } 
 #sales .whatsapp a {
     background-color: transparent;
+    font-size: 20px;
 }
 #sales .email {
     background-color: black;
