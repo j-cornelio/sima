@@ -75,7 +75,8 @@ function Contact () {
             <div className="p-6">
               <div className="w-inner">
                 <div  className="w-icon-wrapper flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-message-circle h-6 w-6"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg></div><div>
+                  <i className="fa-brands fa-whatsapp"></i>
+                  </div><div>
                     <h3 className="font-display text-lg font-semibold text-foreground">WhatsApp - Respuesta Rápida</h3>
                     <p className="mt-1 font-body text-sm text-muted-foreground">¿Prefieres una respuesta inmediata? Escríbenos directamente por WhatsApp.</p>
                     <br />
@@ -93,7 +94,8 @@ function Contact () {
               <a href="tel:8095550123"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone h-5 w-5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a>
             </div>
             <div>
-              <p className="font-body font-medium text-foreground">Teléfono</p>
+              <p className="font-body font-medium text-foreground">
+                <a href="tel:8495078318">Teléfono</a></p>
               <p className="font-body text-muted-foreground"><a href="tel:8495078318">(849) 507-8318</a></p>
             </div>
           </div>
