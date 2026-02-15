@@ -3,7 +3,7 @@ import logo from './images/logo_horizontal.png';
 function Home() {
   return (
     <>
-      <header>
+      <header className='second-header'>
 
             <div className="row">
                 <img className="logo" src={logo} />

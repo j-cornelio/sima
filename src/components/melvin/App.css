@@ -242,4 +242,8 @@ nav ul a {
     padding: 7px 0;
     margin: 0;
   }
+  .second-header {
+    display: none !important;
+    border: 1px solid red;
+  }
 }
