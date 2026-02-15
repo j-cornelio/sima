@@ -707,15 +707,29 @@ font-weight: 600;
     #sales .row .content {
         width: 100%;
     }
+    #sales .row .content h2, 
+    #sales .row .content p { 
+        padding-left: 25px;
+    }
+    #sales .row .content ul  {
+        margin-left: 25px;
+    }
+    #sales .contact h3 {
+        font-size: 22px;
+    }
+    #sales .contact p {
+        font-size: 18px;
+    }
     #sales .row .contact {
         width: 100%;
+        padding: 0 10% 0;
     }
     .sales-img {
         height: 320px;
     }
-  .wrapper .btn{
-    display: block;
-  }
+    .wrapper .btn{
+        display: block;
+    }
   .wrapper .nav-links{
     position: fixed;
     height: 100vh;
