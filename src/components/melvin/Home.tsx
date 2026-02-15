@@ -1,9 +1,32 @@
+import logo from './images/logo_horizontal.png';
 
 function Home() {
   return (
     <>
+      <header>
+
+            <div className="row">
+                <img className="logo" src={logo} />
+
+                <div className="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href=".sec01">Section 01</a></li>
+                        <li><a href=".sec02">Section 02</a></li>
+                        <li><a href=".sec03">Section 03</a></li>
+                        <li><a href=".sec04">Section 04</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+      
       <div className="hero">
-          <h1><span>I'm a cool</span><br />Navigation</h1>
+          <h1 className="warm-color"><span>Construyendo</span><br />Para El Futuro</h1>
 
           <div className="mouse">
               <span></span>
