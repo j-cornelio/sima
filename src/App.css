@@ -707,6 +707,7 @@ font-weight: 600;
     body#app p, 
     body#app ul li {
         font-size: 18px;
+        border: 1px solid red;
     }
     #sales .row .content {
         width: 100%;
