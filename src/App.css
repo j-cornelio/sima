@@ -712,12 +712,10 @@ font-weight: 600;
         width: 100%;
     }
     #sales .row .content h2, 
-    #sales .row .content p { 
-        padding-left: 25px;
-    }
-    #sales .row .content ul  {
-        margin-left: 25px;
-    }
+    #sales .row .content p,
+    #sales .row .content ul { 
+        padding-left: 10px;
+    }  
     #sales .contact h3 {
         font-size: 22px;
     }
