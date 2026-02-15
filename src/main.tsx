@@ -22,6 +22,7 @@ import RentalsRiviera4B from './components/pages/rentals/Riviera-4B'
 import RentalsRiviera118 from './components/pages/rentals/Riviera118'
 import RentalsPaseo165 from './components/pages/rentals/Paseo165'
 import Paseo200 from './components/pages/sales/Paseo200'
+import Melvin from './components/melvin/App'
 
 const router = createBrowserRouter([
   {path:"/", element: <App />},
@@ -45,7 +46,8 @@ const router = createBrowserRouter([
   {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
   {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},
-  {path:"/sales/Paseo200", element: <Paseo200 />}
+  {path:"/sales/Paseo200", element: <Paseo200 />},
+  {path:"/melvin", element: <Melvin />}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
