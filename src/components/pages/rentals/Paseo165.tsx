@@ -79,7 +79,7 @@ function Riviera165 () {
                         <li>Cocina</li>
                         <li>Balcón doble</li>
                         <li>Sala</li>
-                        <li><strong>Áreas Sociales:</strong></li>
+                        <li className="areas-header">Áreas Sociales:</li>
                         <li>Terrazas</li>
                         <li>Parque</li>
                         <li>2 salones de eventos</li>

@@ -87,7 +87,7 @@ function Paseo190 () {
                         <li>Balcón</li>
                    </ul>
                    <ul>
-                        <li><strong>Áreas Sociales y Terrazas:</strong></li>
+                        <li className="areas-header">Áreas Sociales:</li>
                         <li>Parques</li>
                         <li>Gimnasio</li>
                         <li>2 salones de eventos</li>

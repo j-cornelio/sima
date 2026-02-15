@@ -94,7 +94,7 @@ function Paseo220 () {
                         <li>Planta full</li>
                     </ul>
                     <ul>
-                        <li><strong>Incluye:</strong></li>
+                        <li className="areas-header">Incluye:</li>
                         <li>Aires Acond Inverter</li>
                         <li>Extractor de grasa</li>
                         <li>Estufa</li>

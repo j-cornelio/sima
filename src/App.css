@@ -175,7 +175,7 @@ h1 {
 
 #sales li.areas-header {
     font-weight: bolder;
-    margin: 10px 0;
+    margin: 20px 0 10px -20px;
     list-style: none;
 }
 

@@ -74,7 +74,7 @@ function SalesRiviera4B () {
                         <li>Comedor</li>
                         <li>Cocina</li>
                         <li>Balcón</li>
-                        <li><strong>Áreas Sociales:</strong></li>
+                        <li className="areas-header">Áreas Sociales:</li>
                         <li>3 piscinas</li>
                         <li>3 terrazas</li>
                         <li>Sendero de caminar</li>
