@@ -707,7 +707,6 @@ font-weight: 600;
     body#app p, 
     body#app ul li {
         font-size: 18px;
-        border: 1px solid green;
     }
     #sales .row .content {
         width: 100%;
@@ -721,9 +720,6 @@ font-weight: 600;
     }
     #sales .contact h3 {
         font-size: 22px;
-    }
-    #sales .contact p {
-        font-size: 18px;
     }
     #sales .row .contact {
         width: 100%;
