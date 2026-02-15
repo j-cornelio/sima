@@ -706,7 +706,7 @@ font-weight: 600;
 @media screen and (max-width: 970px) {
     body#app p, 
     body#app ul li {
-        font-size: 18px;
+        font-size: 22px;
         border: 1px solid red;
     }
     #sales .row .content {
