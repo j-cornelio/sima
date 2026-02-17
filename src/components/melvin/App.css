@@ -1,10 +1,17 @@
 :root {
-  --brand-green: rgb(24, 100, 89);
-  --brand-lightgreen: rgb(30, 122, 109);
+  --branding-green: rgb(24, 100, 89);
+  --branding-lightgreen: rgb(30, 122, 109);
   --warm-color-yellow: #e8f380;
   --warm-color-orange: #ccaa79ff; 
 }
 
+#melvin  header {
+  background-color: white;
+}
+#melvin  header .row {
+  justify-content: space-between;
+  background-color: white;
+}
 
 .main_h {
   position: fixed;
@@ -12,14 +19,13 @@
   max-height: 110px;
   z-index: 999;
   width: 100%;
-  padding-top: 17px;
+  padding: 17px 60px 6px;
   background: none;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0;
   top: -100px;
-  padding-bottom: 6px;
   font-family: "Montserrat", sans-serif;
 }
 @media only screen and (max-width: 766px) {
@@ -70,12 +76,61 @@ nav ul li {
   line-height: 1.5;
 }
 nav ul a {
-  color: var(--brand-green);
+  color: var(--branding-green);
   text-transform: uppercase;
   font-size: 15px;
 }
+.anchor-target:before {
+    content: "";
+    display: block;
+    height: 60px; /* Height of your header */
+    margin-top: -60px; /* Negative height of your header */
+}
 #melvin .hero .warm-color {
   color: var(--warm-color-orange)
+}
+#melvin .about {
+  padding: 0 60px 60px;
+  background-color: black;
+}
+#melvin .about h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+#melvin .about p {
+  color: white;
+}
+#melvin .about h1 {
+  color: var(--branding-lightgreen);
+  font-size: 50px;
+  margin-top: 10px;
+}
+#melvin .services {
+  padding: 0 60px 60px;
+  background-color: var(--branding-green);
+} 
+#melvin .services h1,
+#melvin .services h2 {
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
+#melvin .projects {
+  padding: 60px;
+}
+#melvin .projects .row div {
+  border: 1px solid green;
+  height: 200px;
+}
+
+#melvin .services p {
+  color: white;
+}
+#melvin .services h1,
+#melvin .services h2,
+#melvin .services p {
+  color: white;
 }
 .mobile-toggle {
   display: none;
@@ -100,10 +155,7 @@ nav ul a {
 
 #melvin .row {
   width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
   position: relative;
-  padding: 0 2%;
 }
 
 * {
@@ -117,8 +169,7 @@ nav ul a {
 #melvin h1 {
   font-size: 30px;
   line-height: 1.8;
-  color: var(--brand-lightgreen);
-  text-transform: uppercase;
+  color: var(--branding-green);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -128,18 +179,11 @@ nav ul a {
   line-height: 2;
 }
 
-#melvin .content {
-  padding: 50px 2% 250px;
-}
-
 .hero {
   position: relative;
   background: url(./images/work.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background-size: auto;
   text-align: center;
-  color: #fff;
   padding-top: 110px;
   min-height: 500px;
   letter-spacing: 2px;
@@ -150,8 +194,8 @@ nav ul a {
   line-height: 1.3;
 }
 .hero h1 span {
-  font-size: 25px;
-  color: #e8f380;
+  font-size: 35px;
+  color: white;
   border-bottom: 2px solid #e8f380;
   padding-bottom: 12px;
   line-height: 3;
@@ -244,6 +288,5 @@ nav ul a {
   }
   .second-header {
     display: none !important;
-    border: 1px solid red;
   }
 }

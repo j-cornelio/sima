@@ -21,10 +21,9 @@ function Header() {
 
                 <nav>
                     <ul>
-                        <li><a href=".sec01">Section 01</a></li>
-                        <li><a href=".sec02">Section 02</a></li>
-                        <li><a href=".sec03">Section 03</a></li>
-                        <li><a href=".sec04">Section 04</a></li>
+                        <li><a href=".sec01">SOBRE NOSOTROS</a></li>
+                        <li><a href=".sec02">SERVICIOS</a></li>
+                        <li><a href=".sec03">PROJECTOS</a></li>
                     </ul>
                 </nav>
             </div>

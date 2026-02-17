@@ -7,7 +7,7 @@ function App() {
   return (
     <div id="melvin">
       <Header />
-        <Home />
+      <Home />
       <Footer />
     </div>
   )
