@@ -24,31 +24,30 @@ function Home() {
         </header>
       
       <div className="hero">
-          <h1 className="warm-color"><span>Construyendo</span><br />Para El Futuro</h1>
-
-          <div className="mouse">
-              <span></span>
-          </div>
+          <h1 className="warm-color"><span>Construyendo</span><br /><span style={{}}>Para El Futuro</span></h1>
       </div>
 
       <div className="row content">
         <div className="about sec01 anchor-target">
-            <br />
             <h2>Quien Somos</h2>
-            <h1>Serviendo Bavaro por mas de <br />20 Anos</h1>
-            <p>With over 300 successful restoration and new construction projects under our belt, MGR Restoration Inc. attributes its achievements to clear communication, dedicated leadership and a strategic delivery of our commitments.</p>
+            <h1>Serviendo Bavaro por mas de</h1>
+            <h1>20 año?</h1>
+            <p>Con más de ### proyectos exitosos de nueva construcción en nuestro haber, Aceros & Encofrados M&T atribuye sus logros a una comunicación clara, un liderazgo dedicado y un cumplimiento estratégico de nuestros compromisos.</p>
         </div>  
         <div className="sec02 services sec01 anchor-target">
             <h1>Servicios</h1>
+            <h2>todo lo que tenga que ver en el sector construcción</h2>
+            <p>No nos regimos por reglas preconcebidas. Nos movemos con rapidez, pensamos con agudeza y construimos espacios que llaman la atención. Sin excusas ni aburrimiento: solo resultados que impactan con más fuerza que el statu quo.</p>
+            <h2>Construimos</h2>
             <div className="row">
                 <div className="col-md-4">
-                    <h2>Roofing</h2>
+                    <h2>Torres</h2>
                 </div>
                 <div className="col-md-4">
-                    <h2>Roofing</h2>
+                    <h2>Edificios</h2>
                 </div>
                 <div className="col-md-4">
-                    <h2>Roofing</h2>
+                    <h2>Villas</h2>
                 </div>
             </div>
         </div>

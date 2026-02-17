@@ -1,6 +1,6 @@
 :root {
   --brand-gold: #ccaa79ff;
-  --branding-green: #355041;
+  --brand-green: #355041;
 }
 
 body#app {
@@ -590,12 +590,12 @@ ul.description2 li {
 }
 
 /* HEADER MENU */
-nav{
+nav#sima {
   position: relative;
   z-index: 99;
   width: 100%;
   height: 116px;
-  background: var(--branding-green);
+  background: var(--brand-green);
 }
 nav .wrapper{
   position: relative;

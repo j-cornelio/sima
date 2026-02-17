@@ -15,7 +15,7 @@ function Header () {
     }, [])
 
     return (
-      <nav>
+      <nav id="sima">
         <div className="wrapper">
           <div className="logo">
              <Link className="navbar-brand" to="/">
