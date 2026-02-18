@@ -1,4 +1,6 @@
 import logo from './images/logo_horizontal.png';
+import Project from "./includes/Project";
+import ProjectFinished from "./includes/ProjectFinished";
 
 function Home() {
   return (
@@ -55,17 +57,7 @@ function Home() {
         <div className="sec03 projects sec01 anchor-target">
             <br />
             <h1>Projectos</h1>
-            <div className="row">
-                <div className="col-md-4">
-                    <h2>Protjecto 1</h2>
-                </div>
-                <div className="col-md-4">
-                    <h2>Protjecto 2</h2>
-                </div>
-                <div className="col-md-4">
-                    <h2>Protjecto 3</h2>
-                </div>
-            </div>
+            <Project />
         </div>
       </div>      
     </div>

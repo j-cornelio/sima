@@ -704,6 +704,9 @@ font-weight: 600;
 /* HEADER MENU END */
 
 @media screen and (max-width: 970px) {
+    h1 {
+        font-size: 20px;
+    }
     body#app p, 
     body#app ul li {
         font-size: 18px;
