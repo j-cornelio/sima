@@ -31,7 +31,8 @@ function Home() {
         <div className="about sec01 anchor-target">
             <h2>Quien Somos</h2>
             <h1>Serviendo Bavaro por mas de</h1>
-            <h1>20 año?</h1>
+            <h1>20 años</h1>
+            <br />
             <p>Con más de ### proyectos exitosos de nueva construcción en nuestro haber, Aceros & Encofrados M&T atribuye sus logros a una comunicación clara, un liderazgo dedicado y un cumplimiento estratégico de nuestros compromisos.</p>
         </div>  
         <div className="sec02 services sec01 anchor-target">

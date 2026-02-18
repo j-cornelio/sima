@@ -94,8 +94,8 @@ nav ul a {
   background-color: black;
 }
 #melvin .about h1:nth-child(3)  {
-  border: 3px solid yellow;
-  margin-top: 10px
+  margin-top: 10px;
+  line-height: 0.5;
 }
 #melvin .about h2 {
   color: white;
