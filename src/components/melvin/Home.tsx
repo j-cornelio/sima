@@ -8,13 +8,6 @@ function Home() {
       <header className='second-header'>
             <div className="row">
                 <img className="logo" src={logo} />
-
-                <div className="mobile-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
                 <nav>
                     <ul>
                         <li><a href=".sec01">SOBRE NOSOTROS</a></li>
