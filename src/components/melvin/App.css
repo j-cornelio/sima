@@ -301,8 +301,12 @@ nav ul a {
     padding: 7px 0;
     margin: 0;
   }
+  .second-header nav {
+    padding: 0;
+  }
   .second-header ul {
     display: flex;
     margin: 0;
+    padding: 0;
   }
 }
