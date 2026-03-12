@@ -2,9 +2,9 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import image1 from '../../../images/sales/riviera_84_2/1.jpeg'
+import image10 from '../../../images/sales/riviera_84_2/10.jpeg'
 import image2 from '../../../images/sales/riviera_84_2/2.jpeg'
-import image3 from '../../../images/sales/riviera_84_2/3.jpeg'
+import image7 from '../../../images/sales/riviera_84_2/7.jpeg'
 import image4 from '../../../images/sales/riviera_84_2/4.jpeg'
 
 function SalesRiviera4B () {
@@ -30,13 +30,13 @@ function SalesRiviera4B () {
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                     <div className="item active">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image1}}></div>
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image10}}></div>
                     </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image7}}></div>
                     </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundImage:  "url(" + image4}}></div>
