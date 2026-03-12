@@ -18,6 +18,7 @@ import Paseo165 from './components/pages/sales/Paseo165'
 import Riviera135 from './components/pages/sales/Riviera135'
 import Riviera115 from './components/pages/sales/Riviera115'
 import Riviera84 from './components/pages/sales/Riviera84'
+import Riviera84_2 from './components/pages/sales/Riviera84_2'
 import RentalsRiviera4B from './components/pages/rentals/Riviera-4B'
 import RentalsRiviera118 from './components/pages/rentals/Riviera118'
 import RentalsPaseo165 from './components/pages/rentals/Paseo165'
@@ -44,6 +45,7 @@ const router = createBrowserRouter([
   {path:"/sales/Riviera135", element: <Riviera135 />},
   {path:"/sales/Riviera115", element: <Riviera115 />},
   {path:"/sales/Riviera84", element: <Riviera84 />},
+  {path:"/sales/riviera_84_2", element: <Riviera84_2 />},
   {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
   {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},

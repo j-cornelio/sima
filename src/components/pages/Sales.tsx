@@ -9,6 +9,7 @@ import balcony from '../../images/sales/paseo_220/balcony.jpg'
 import paseo_190 from '../../images/sales/paseo_190/1.jpg'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 import paseo_135 from '../../images/sales/riviera_135/livingroom.jpeg'
+import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpeg'
 import { Link } from "react-router-dom";
 
 function Sales () {
@@ -190,7 +191,27 @@ function Sales () {
               </Link>
               </div>
             </div>
-          </div>
+  
+{/* ROW 4 */}
+
+             <div className="info col-md-4 sales-piece">
+              <Link  className="nav-link" to="riviera_84_2">
+                <img src={riviera_84_2} height="332px" width="250px" />
+              </Link>
+              <div className="main-info">
+                <p>$160,000 negociable</p>
+                <p>Riviera Colonial</p>
+              </div>
+              <div className="sub-info">
+                <p>3 Dormitorios</p>
+                <p>3 Baños</p>
+                <p>84 Mt2</p>
+              <Link  className="nav-link" to="riviera_84_2">
+                <button>Ver Detalles</button>
+              </Link>
+              </div>
+            </div>
+          </div>      
 
         </div>
       <Footer />

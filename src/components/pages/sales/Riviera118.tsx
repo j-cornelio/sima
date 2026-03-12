@@ -66,7 +66,7 @@ function SalesRiviera4B () {
                         <p><i className="fa-solid fa-ruler"></i> <span>118 Mt2</span></p>
                     </div>
                     <h2>Descripcion</h2>
-                    <p>Este exclusivo proyecto de apartamentos, ubicado en el prestigioso polígono central de Santo Domingo, redefine el lujo y la comodidad con un diseño arquitectónico de vanguardia. Ideal para inversionistas y residentes exigentes, combina elegancia, funcionalidad y servicios de primera clase en un entorno privilegiado, a pasos de centros comerciales, bancos corporativos y la mejor oferta gastronómica y nocturna de la ciudad.</p>
+                    <p>Apartamentos condominio, ubicado en el Santo Domingo Este en prestigioso Riviera Colonial.  Bien cerca a Zona Colonial, a pasos de centros comerciales, bancos.  La mejor oferta gastronómica y vida nocturna.</p>
                     <h2>Reflejos:</h2>
                     <ul>
                         <li>Área de lavado</li>
