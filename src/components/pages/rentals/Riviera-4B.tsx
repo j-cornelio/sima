@@ -61,7 +61,7 @@ function SalesRiviera4B () {
                         <p><i className="fa-solid fa-ruler"></i> <span>135 Mt2</span></p>
                     </div>
                     <h2>Descripcion</h2>
-                    <p>Este exclusivo proyecto de apartamentos, ubicado en el prestigioso polígono central de Santo Domingo, redefine el lujo y la comodidad con un diseño arquitectónico de vanguardia. Ideal para inversionistas y residentes exigentes, combina elegancia, funcionalidad y servicios de primera clase en un entorno privilegiado, a pasos de centros comerciales, bancos corporativos y la mejor oferta gastronómica y nocturna de la ciudad.</p>
+                    <p>Apartamento de 3 recámaras y 2 baños con piscina y excelente vista a la Zona Colonial. Apartamento de 3 recámaras y 2 baños en Villa Duarte, frente a Río Ozama. ¡Ideal para inversionistas o para quienes buscan aumentar su patrimonio! ¡Precio por debajo del valor de mercado! Amplia y acogedora sala de estar. En excelentes condiciones, ¡a estrenar! ¡Precio inmejorable! ¡Cerca de la Zona Colonial! ¡Dos terrazas disponibles para barbacoas! ¡Esta hermosa casa espera a su nuevo dueño! ¡No se la pierda!</p>
                     <h2>Reflejos:</h2>
                     <ul>
                         <li>Área de lavado</li>
