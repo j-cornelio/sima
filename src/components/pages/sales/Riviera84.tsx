@@ -30,16 +30,16 @@ function SalesRiviera4B () {
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                     <div className="item active">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image1}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image1}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image2}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image4}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image4}}></div>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ function SalesRiviera4B () {
                         <p><i className="fa-solid fa-ruler"></i> <span>84 Mt2</span></p>
                     </div>
                     <h2>Descripcion</h2>
-                    <p>Apartamentos condominio, ubicado en el Santo Domingo Este en prestigioso Riviera Colonial.  Bien cerca a Zona Colonial, a pasos de centros comerciales, bancos.  La mejor oferta gastronómica y vida nocturna.</p>
+                    <p>Descubra un sofisticado complejo de apartamentos en el corazón del distrito central más codiciado de Santo Domingo. Diseñada para la vida moderna, esta residencia combina una arquitectura elegante con comodidad y funcionalidad. Ideal tanto para inversionistas como para quienes buscan una vivienda propia, ofrece una ubicación privilegiada a solo minutos de los mejores centros comerciales, centros financieros y los restaurantes y locales nocturnos más exclusivos de la ciudad.</p>
                     <h2>Reflejos:</h2>
                     <ul>
                         <li>Área de lavado</li>
