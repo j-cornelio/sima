@@ -10,8 +10,8 @@ import balcony from '../../images/sales/paseo_220/balcony.jpg'
 import paseo_190 from '../../images/sales/paseo_190/1.jpg'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 import paseo_135 from '../../images/sales/riviera_135/livingroom.jpeg'
-import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpg'
-import praderas from '../../../images/sales/praderas/3.jpeg'
+import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpeg'
+import praderas     from '../../images/sales/praderas/3.jpeg'
 
 function Sales () {
     return (
@@ -194,7 +194,8 @@ function Sales () {
   
 {/* ROW 4 */}
 
-             <div className="info col-md-4 sales-piece">
+          <div className="row">
+            <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="riviera_84_2">
                 <img src={riviera_84_2} height="332px" width="250px" />
               </Link>
@@ -212,24 +213,25 @@ function Sales () {
               </div>
             </div>
 
-          <div className="info col-md-4 sales-piece">
-            <Link  className="nav-link" to="praderas">
-              <img src={praderas} height="332px" width="250px" />
-            </Link>
-            <div className="main-info">
-              <p>$900,000</p>
-              <p>Las Praderas SDE</p>
+            <div className="info col-md-4 sales-piece">
+              <Link  className="nav-link" to="praderas">
+                <img src={praderas} height="332px" width="250px" />
+              </Link>
+              <div className="main-info">
+                <p>$900,000</p>
+                <p>Las Praderas SDE</p>
+              </div>
+              <div className="sub-info">
+                <p>7 Dormitorios</p>
+                <p>7 Baños</p>
+                <p>16000 Mt2</p>
+              <Link  className="nav-link" to="praderas">
+                <button>Ver Detalles</button>
+              </Link>
+              </div>
             </div>
-            <div className="sub-info">
-              <p>7 Dormitorios</p>
-              <p>7 Baños</p>
-              <p>16000 Mt2</p>
-            <Link  className="nav-link" to="praderas">
-              <button>Ver Detalles</button>
-            </Link>
-            </div>
-          </div>
           
+          </div>
         </div>   
       </div>      
 
