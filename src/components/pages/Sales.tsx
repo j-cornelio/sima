@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import paseo_200 from '../../images/sales/paseo_200/1.jpeg'
 import livingroom from '../../images/sales/riviera_B4/livingroom.jpeg'
 import kitchen from '../../images/sales/riviera_118/kitchen.jpg'
@@ -9,16 +10,15 @@ import balcony from '../../images/sales/paseo_220/balcony.jpg'
 import paseo_190 from '../../images/sales/paseo_190/1.jpg'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 import paseo_135 from '../../images/sales/riviera_135/livingroom.jpeg'
-import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpeg'
-import { Link } from "react-router-dom";
+import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpg'
+import praderas from '../../../images/sales/praderas/3.jpeg'
 
 function Sales () {
     return (
     <>
       <Header />
         <div id="sales" className="container">
-          
-            <h1>Propiedades Residenciales En Venta</h1>
+          <h1>Propiedades Residenciales En Venta</h1>
 
 {/* ROW 1 */}
 
@@ -214,7 +214,7 @@ function Sales () {
 
           <div className="info col-md-4 sales-piece">
             <Link  className="nav-link" to="praderas">
-              <img src={riviera_84_2} height="332px" width="250px" />
+              <img src={praderas} height="332px" width="250px" />
             </Link>
             <div className="main-info">
               <p>$900,000</p>
