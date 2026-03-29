@@ -211,7 +211,6 @@ function Sales () {
               </Link>
               </div>
             </div>
-          </div>   
 
           <div className="info col-md-4 sales-piece">
             <Link  className="nav-link" to="praderas">
@@ -230,7 +229,9 @@ function Sales () {
             </Link>
             </div>
           </div>
-        </div>      
+          
+        </div>   
+      </div>      
 
       <Footer />
     </>
