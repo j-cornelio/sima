@@ -23,6 +23,7 @@ import RentalsRiviera4B from './components/pages/rentals/Riviera-4B'
 import RentalsRiviera118 from './components/pages/rentals/Riviera118'
 import RentalsPaseo165 from './components/pages/rentals/Paseo165'
 import Paseo200 from './components/pages/sales/Paseo200'
+import Praderas from './components/pages/sales/Praderas'
 import Melvin from './components/melvin/App'
 import Sticky from './components/sticky-nav/Main'
 
@@ -50,6 +51,7 @@ const router = createBrowserRouter([
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
   {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},
   {path:"/sales/Paseo200", element: <Paseo200 />},
+  {path:"/sales/Praderas", element: <Praderas />},
   {path:"/melvin", element: <Melvin />},
   {path:"/sticky", element: <Sticky />}
 ]);
