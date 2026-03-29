@@ -211,9 +211,27 @@ function Sales () {
               </Link>
               </div>
             </div>
-          </div>      
+          </div>   
 
-        </div>
+          <div className="info col-md-4 sales-piece">
+            <Link  className="nav-link" to="praderas">
+              <img src={riviera_84_2} height="332px" width="250px" />
+            </Link>
+            <div className="main-info">
+              <p>$900,000</p>
+              <p>Las Praderas SDE</p>
+            </div>
+            <div className="sub-info">
+              <p>7 Dormitorios</p>
+              <p>7 Baños</p>
+              <p>16000 Mt2</p>
+            <Link  className="nav-link" to="praderas">
+              <button>Ver Detalles</button>
+            </Link>
+            </div>
+          </div>
+        </div>      
+
       <Footer />
     </>
     )

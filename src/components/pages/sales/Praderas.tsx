@@ -16,7 +16,7 @@ function Praderas () {
        <div id="sales" className="container">
             <div className="row top-section">
                 <div id="heading" className="col-md-12">
-                    <h1>Casa en venta, las Praderas SDE</h1>
+                    <h1>Casa en venta, Las Praderas SDE</h1>
                     <h5>700 M² de construcción y 1,600 M² de terreno</h5>
                 </div>
             {/* CAROUSEL */}
