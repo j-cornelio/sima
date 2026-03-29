@@ -9,7 +9,7 @@ import image4 from '../../../images/sales/praderas/4.jpeg'
 import image5 from '../../../images/sales/praderas/5.jpeg'
 import image6 from '../../../images/sales/praderas/6.jpeg'
 
-function Paseo190 () {
+function Praderas () {
     return ( 
     <>
       <Header />
@@ -67,7 +67,7 @@ function Paseo190 () {
             </div>
             <div className="row">
                 <div className="col-md-6 content">
-                    <h1 className="price">Precio: $390,000 Negociable</h1>
+                    <h1 className="price">Precio: $900,000 </h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-bed"></i> <span>7 Habitaciones</span></p>
                         <p><i className="fa-solid fa-bath"></i> <span>7 Baños</span></p>
@@ -98,4 +98,4 @@ function Paseo190 () {
     )
 }
 
-export default Paseo190;
+export default Praderas;
