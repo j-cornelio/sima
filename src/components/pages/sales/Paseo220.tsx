@@ -7,8 +7,13 @@ import image2 from '../../../images/sales/paseo_220/22.jpg'
 import image3 from '../../../images/sales/paseo_220/23.jpg'
 import image4 from '../../../images/sales/paseo_220/24.jpg'
 import balcony from '../../../images/sales/paseo_220/26.jpg'
+import { useEffect } from 'react';
 
 function Paseo220 () {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return ( 
     <>
       <Header />

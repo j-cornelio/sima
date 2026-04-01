@@ -7,8 +7,13 @@ import image2 from '../../../images/sales/Villa_Punta_Cana/2.jpeg'
 import image3 from '../../../images/sales/Villa_Punta_Cana/4.jpeg'
 import image4 from '../../../images/sales/Villa_Punta_Cana/9.jpeg'
 import image5 from '../../../images/sales/Villa_Punta_Cana/14.jpeg'
+import { useEffect } from 'react';
 
 function SalesRiviera4B () {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return ( 
     <>
       <Header />

@@ -6,8 +6,13 @@ import image10 from '../../../images/sales/riviera_84_2/10.jpeg'
 import image2 from '../../../images/sales/riviera_84_2/2.jpeg'
 import image7 from '../../../images/sales/riviera_84_2/7.jpeg'
 import image4 from '../../../images/sales/riviera_84_2/4.jpeg'
+import { useEffect } from 'react';
 
 function SalesRiviera4B () {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return ( 
     <>
       <Header />

@@ -7,8 +7,13 @@ import image2 from '../../../images/sales/riviera_135/3.jpeg'
 import image3 from '../../../images/sales/riviera_135/4.jpeg'
 import image4 from '../../../images/sales/riviera_135/21.png'
 import image5 from '../../../images/sales/riviera_135/22.png'
+import { useEffect } from 'react';
 
 function Riviera165 () {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return ( 
     <>
       <Header />

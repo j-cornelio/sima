@@ -7,8 +7,13 @@ import image1 from '../../../images/sales/paseo_165/21.jpeg'
 import image2 from '../../../images/sales/paseo_165/22.jpeg'
 import image3 from '../../../images/sales/paseo_165/23.jpeg'
 import image4 from '../../../images/sales/paseo_165/24.jpeg'
+import { useEffect } from 'react';
 
 function Riviera165 () {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return ( 
     <>
       <Header />

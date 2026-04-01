@@ -12,8 +12,13 @@ import image7 from '../../../images/sales/paseo_200/7.jpeg'
 import image8 from '../../../images/sales/paseo_200/8.jpeg'
 import image9 from '../../../images/sales/paseo_200/9.jpeg'
 import image10 from '../../../images/sales/paseo_200/10.jpeg'
+import { useEffect } from 'react';
 
 function Paseo200 () {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return ( 
     <>
       <Header />

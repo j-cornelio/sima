@@ -8,8 +8,13 @@ import image3 from '../../../images/sales/praderas/3.jpeg'
 import image4 from '../../../images/sales/praderas/4.jpeg'
 import image5 from '../../../images/sales/praderas/5.jpeg'
 import image6 from '../../../images/sales/praderas/6.jpeg'
+import { useEffect } from 'react';
 
 function Praderas () {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return ( 
     <>
       <Header />

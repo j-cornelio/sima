@@ -5,8 +5,13 @@ import ContactPerson from "../../includes/ContactPerson";
 import livingroom from '../../../images/sales/riviera_B4/livingroom.jpeg'
 import image2 from '../../../images/sales/riviera_B4/2.jpg'
 import image3 from '../../../images/sales/riviera_B4/3.jpg'
+import { useEffect } from 'react';
 
 function SalesRiviera4B () {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
     return ( 
     <>
       <Header />

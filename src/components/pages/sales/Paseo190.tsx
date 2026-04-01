@@ -8,8 +8,13 @@ import image3 from '../../../images/sales/paseo_190/33.jpg'
 import image4 from '../../../images/sales/paseo_190/34.jpg'
 import image5 from '../../../images/sales/paseo_190/35.jpg'
 import image6 from '../../../images/sales/paseo_190/36.jpg'
+import { useEffect } from 'react';
 
 function Paseo190 () {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return ( 
     <>
       <Header />
