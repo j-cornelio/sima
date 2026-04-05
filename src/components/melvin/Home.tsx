@@ -19,7 +19,8 @@ function Home() {
         </header>
       
       <div className="hero">
-          <h1 className="warm-color"><span>Construyendo</span><br /><span style={{}}>Para El Futuro</span></h1>
+          <h1>Construyendo Para El Futuro</h1>
+          <p>Ven a explorar las posibilidades</p>
       </div>
 
       <div className="row content">
@@ -32,24 +33,22 @@ function Home() {
         </div>  
         <div className="sec02 services sec01 anchor-target">
             <h1>Servicios</h1>
-            <h2>todo lo que tenga que ver en el sector construcción</h2>
-            <p>No nos regimos por reglas preconcebidas. Nos movemos con rapidez, pensamos con agudeza y construimos espacios que llaman la atención. Sin excusas ni aburrimiento: solo resultados que impactan con más fuerza que el statu quo.</p>
-            <h2>Construimos</h2>
+            <h3>Especializamos en todo de trabajo en el sector de construcción</h3>
+            <h2>Construimos los siguentes:</h2>
             <div className="row">
                 <div className="col-md-4">
-                    <h2>Torres</h2>
+                    <h1><span>01.</span>Torres</h1>
                 </div>
                 <div className="col-md-4">
-                    <h2>Edificios</h2>
+                    <h1><span>02.</span>Edificios</h1>
                 </div>
                 <div className="col-md-4">
-                    <h2>Villas</h2>
+                    <h1><span>03.</span>Villas</h1>
                 </div>
             </div>
         </div>
         <div className="sec03 projects sec01 anchor-target">
-            <br />
-            <h1>Projectos</h1>
+            <h1>Proyectos Destacados</h1>
             <Project />
         </div>
       </div>      

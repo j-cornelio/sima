@@ -3,9 +3,17 @@ import Video from "./Video";
 import { Link } from "react-router-dom";
 import lux_room from "../../images/lux_livingroom.jpg";
 import bedroom from "../../images/bedroom.png";
+import AOS from 'aos';
+import React, { useEffect } from 'react';
+import 'aos/dist/aos.css'; 
+//https://michalsnik.github.io/aos/
 
-
-function Home () {
+function Home () {  
+    useEffect(() => {   
+        AOS.init();
+        AOS.refresh(); // Refresh AOS to detect new elements
+    }, []);
+    
     return (
         <div className="container-fluid">
                     <Video />
@@ -31,11 +39,11 @@ function Home () {
                     </div>
 
                    <div className="row block2">
-                        <div  className="col-md-6">
+                        <div  className="col-md-6" data-aos="fade-up">
                             <h1>Proceso de transacción</h1>
                             <p>Los agentes inmobiliarios guían a los clientes a través de contratos, negociaciones, precios y documentación legal, ofreciendo asesoramiento experto y personalizado.</p>                        
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6" data-aos="fade-up">
                             <h1>Consejos de expertos</h1>
                             <p>Los agentes inmobiliarios ofrecen información profesional y estrategias personalizadas para garantizar que los clientes tomen decisiones informadas en sus transacciones inmobiliarias.</p>
                         </div>
