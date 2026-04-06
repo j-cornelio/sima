@@ -389,6 +389,9 @@ footer h3 {
   header.sticky_header {
     max-height: 120px
   }
+  #melvin .services .row h1 {
+    margin: 0;
+  }
   .projects h1 {
     line-height: 20px;
     margin-top: 0;
