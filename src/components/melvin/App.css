@@ -388,10 +388,10 @@ footer h3 {
   }
   header.sticky_header {
     border: 3px solid green;
-    max-height: 110px
+    max-height: 120px
   }
   .hero {
-    background-position: 5% 40%;
+    background-position: 5% 30%;
   }
   .hero {
     padding-top: 70px;
