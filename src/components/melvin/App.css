@@ -384,11 +384,11 @@ footer h3 {
     display: none;
   }
   header.sticky_header {
-    border: 2px solid red;
+    border: 2px solid purple;
   }
   .hero {
     border: 2px solid green;
-    background-position: 15% -15%;
+    background-position: -15% -5%;
   }
   .hero {
     padding-top: 70px;
