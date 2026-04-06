@@ -273,7 +273,7 @@ footer h3 {
   padding-bottom: 12px;
   line-height: 3;
 }
-
+/* DON'T KNOW */
 .mouse {
   display: block;
   margin: 0 auto;
@@ -333,6 +333,7 @@ footer h3 {
     transform: translateY(20px);
   }
 }
+/* DON'T KNOW - END */
 
 /* applies to MOBILE.  NOT mobile first */
 @media only screen and (max-width: 766px) {
@@ -381,5 +382,8 @@ footer h3 {
   }
   .second_header {
     display: none;
+  }
+  #melvin .hero h1 {
+    margin-top: 100px;
   }
 }
