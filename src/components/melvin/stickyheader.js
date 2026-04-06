@@ -1,7 +1,11 @@
+/*
+wide screen has a second header.  on MOBILE it disapears and shows STICKY with top: 0 
+*/
+
 export function sticky() {
-    // Sticky Header
+    // Sticky Header LOGIC - opacity: 1 appear
     window.addEventListener("scroll", function () {
-      const header = document.querySelector(".main_h");
+      const header = document.querySelector(".sticky_header");
 
       if (window.scrollY > 100) {
         header.classList.add("sticky");
@@ -12,14 +16,14 @@ export function sticky() {
 
     // Mobile Navigation toggle
     document.querySelector(".mobile-toggle").addEventListener("click", function () {
-      const header = document.querySelector(".main_h");
+      const header = document.querySelector(".sticky_header");
       header.classList.toggle("open-nav");
     });
 
     // Close menu when link is clicked
-    document.querySelectorAll(".main_h li a").forEach(link => {
+    document.querySelectorAll(".sticky_header li a").forEach(link => {
       link.addEventListener("click", function () {
-        const header = document.querySelector(".main_h");
+        const header = document.querySelector(".sticky_header");
         const navigation = document.querySelector(".navigation");
 
         if (header.classList.contains("open-nav")) {
@@ -40,8 +44,7 @@ export function sticky() {
         const offset = 70;
         const targetPosition =
           targetElement.getBoundingClientRect().top +
-          window.pageYOffset -
-          offset;
+          window.pageYOffset - offset;
 
         window.scrollTo({
           top: targetPosition,

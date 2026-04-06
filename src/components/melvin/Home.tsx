@@ -5,9 +5,16 @@ import ProjectFinished from "./includes/ProjectFinished";
 function Home() {
   return (
     <div id="sticky">
-      <header className='second-header'>
+      <header className='second_header'>
             <div className="row">
                 <img className="logo" src={logo} />
+
+                <div className="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
                 <nav>
                     <ul>
                         <li><a href=".sec01">SOBRE NOSOTROS</a></li>

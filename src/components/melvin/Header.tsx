@@ -8,8 +8,7 @@ function Header() {
     }, [])
 
     return (
-        <header className="main_h">
-
+        <header className="sticky_header">
             <div className="row">
                 <img className="logo" src={logo} />
 
