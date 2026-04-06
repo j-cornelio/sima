@@ -383,8 +383,12 @@ footer h3 {
   .second_header {
     display: none;
   }
-  header.sticky_header .hero {
+  header.sticky_header {
     border: 2px solid red;
+  }
+  .hero {
+    border: 2px solid green;
+    background-position: 0% -30%;
   }
   .hero {
     padding-top: 70px;
