@@ -222,7 +222,7 @@ footer h3 {
   height: 4px;
   margin-bottom: 6px;
   border-radius: 1000px;
-  background: var(--branding-green);
+  background: var(--branding-lightestgreen);
   display: block; 
 }
 
