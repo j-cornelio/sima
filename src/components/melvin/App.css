@@ -384,7 +384,8 @@ footer h3 {
     display: none;
   }
   header.sticky_header {
-    max-height: 114px
+    border: 2px solid pink;
+    max-height: 100px
   }
   .hero {
     background-position: 5% 60%;
