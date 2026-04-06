@@ -31,7 +31,7 @@ function Home() {
       </div>
 
       <div className="row content">
-        <div className="about sec01 anchor-target">
+        <div className="about sec01">
             <h2>Quien Somos</h2>
             <h1>Serviendo Bavaro por mas de</h1>
             <h1>20 años</h1>
@@ -54,7 +54,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className="sec03 projects sec01 anchor-target">
+        <div className="projects sec03 sec01 anchor-target">
             <h1>Proyectos Destacados</h1>
             <Project />
         </div>
