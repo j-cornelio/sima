@@ -88,6 +88,7 @@ nav ul a {
 #melvin .about {
   padding: 0 60px 60px;
   background-color: black;
+  border: 1px solid yellow;
 }
 #melvin .about h1:nth-child(3)  {
   margin-top: 10px;
