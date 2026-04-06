@@ -383,12 +383,15 @@ footer h3 {
   .second_header {
     display: none;
   }
+  #melvin .about h1 {
+    line-height: 46px;
+  }
   header.sticky_header {
-    border: 2px solid pink;
+    border: 2px solid blueviolet;
     max-height: 100px
   }
   .hero {
-    background-position: 5% 60%;
+    background-position: 5% 50%;
   }
   .hero {
     padding-top: 70px;
