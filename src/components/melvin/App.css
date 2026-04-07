@@ -334,12 +334,12 @@ footer h3 {
 }
 /* DON'T KNOW - END */
 
+  .row { /* bootstrap add margins left right */
+    margin: 0;
+  }
 /* applies to MOBILE.  NOT mobile first */
 @media only screen and (max-width: 766px) {
   
-  .row {
-    margin: 0;
-  }
   .sticky_header {
     padding-top: 25px;
     top: 0; /* display sticky header on MOBILE */

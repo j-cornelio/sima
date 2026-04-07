@@ -1,8 +1,18 @@
 import logo from './images/logo_horizontal.png';
 import Project from "./includes/Project";
 import ProjectFinished from "./includes/ProjectFinished";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Home() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  }, []);
+
   return (
     <div id="sticky">
       <header className='second_header'>
@@ -31,14 +41,14 @@ function Home() {
       </div>
 
       <div className="row content">
-        <div className="about sec01">
+        <div data-aos="fade-up" className="about sec01">
             <h2>Quien Somos</h2>
             <h1>Serviendo Bavaro por mas de</h1>
             <h1>20 años</h1>
             <br />
             <p>Con más de ### proyectos exitosos de nueva construcción en nuestro haber, Aceros & Encofrados M&T atribuye sus logros a una comunicación clara, un liderazgo dedicado y un cumplimiento estratégico de nuestros compromisos.</p>
         </div>  
-        <div className="sec02 services sec01 anchor-target">
+        <div data-aos="fade-up" className="sec02 services sec01 anchor-target">
             <h1>Servicios</h1>
             <h3>Especializamos en todo de trabajo en el sector de construcción</h3>
             <h2>Construimos los siguentes:</h2>
@@ -54,7 +64,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className="projects sec03 sec01 anchor-target">
+        <div data-aos="fade-up" className="projects sec03 sec01 anchor-target">
             <h1>Proyectos Destacados</h1>
             <Project />
         </div>
