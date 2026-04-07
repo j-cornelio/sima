@@ -36,8 +36,8 @@ function Home() {
         </header>
       
       <div className="hero">
-          <h1>Construyendo Para El Futuro</h1>
-          <p>Ven a explorar las posibilidades</p>
+          <h1 data-aos="fade-right" data-aos-duration="2000">Construyendo Para El Futuro</h1>
+          <p data-aos="fade-right">Ven a explorar las posibilidades</p>
       </div>
 
       <div className="row content">
