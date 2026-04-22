@@ -6,7 +6,7 @@ import samana from '../../images/sales/Villa_Samana/5.jpeg'
 import riviera156 from '../../images/sales/riviera_156/6.jpeg'
 import riviera_118 from '../../images/sales/riviera_118/livingroom.jpeg'
 import balcony from '../../images/sales/paseo_220/balcony.jpg'
-import paseo_190 from '../../images/sales/paseo_190/1.jpg'
+import paseo_190 from '../../images/sales/paseo_190/1.png'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 
 class Carousel extends React.Component {

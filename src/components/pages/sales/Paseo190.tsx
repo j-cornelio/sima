@@ -2,12 +2,12 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import image1 from '../../../images/sales/paseo_190/31.jpg'
-import image2 from '../../../images/sales/paseo_190/32.jpg'
-import image3 from '../../../images/sales/paseo_190/33.jpg'
-import image4 from '../../../images/sales/paseo_190/34.jpg'
-import image5 from '../../../images/sales/paseo_190/35.jpg'
-import image6 from '../../../images/sales/paseo_190/36.jpg'
+import image2 from '../../../images/sales/paseo_190/32.png'
+import image3 from '../../../images/sales/paseo_190/33.png'
+import image4 from '../../../images/sales/paseo_190/34.png'
+import image5 from '../../../images/sales/paseo_190/35.png'
+import image6 from '../../../images/sales/paseo_190/36.png'
+import image1 from '../../../images/sales/paseo_190/37.png'
 import { useEffect } from 'react';
 
 function Paseo190 () {
