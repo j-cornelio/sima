@@ -2,11 +2,12 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import livingroom from '../../../images/sales/paseo_220/21.jpg'
-import image2 from '../../../images/sales/paseo_220/22.jpg'
-import image3 from '../../../images/sales/paseo_220/23.jpg'
-import image4 from '../../../images/sales/paseo_220/24.jpg'
-import balcony from '../../../images/sales/paseo_220/26.jpg'
+import livingroom from '../../../images/sales/paseo_220/13.png'
+import image2 from '../../../images/sales/paseo_220/14.png'
+import image3 from '../../../images/sales/paseo_220/15.png'
+import image4 from '../../../images/sales/paseo_220/16.png'
+import balcony from '../../../images/sales/paseo_220/17.png'
+import image5 from '../../../images/sales/paseo_220/18.png'
 import { useEffect } from 'react';
 
 function Paseo220 () {
@@ -32,6 +33,7 @@ function Paseo220 () {
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                         <li data-target="#myCarousel" data-slide-to="3"></li>
                         <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
                     </ol>
 
                     {/* Wrapper for slides */}
@@ -50,6 +52,9 @@ function Paseo220 () {
                         </div>
                         <div className="item">
                             <div className="sales-img" style={{backgroundImage:  "url(" + balcony}}></div>
+                        </div>
+                        <div className="item">
+                            <div className="sales-img" style={{backgroundImage:  "url(" + image5}}></div>
                         </div>
                     </div>
 

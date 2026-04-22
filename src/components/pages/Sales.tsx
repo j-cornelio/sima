@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import paseo_200 from '../../images/sales/paseo_200/1.jpeg'
+import paseo_200 from '../../images/sales/paseo_200/1.png'
 import livingroom from '../../images/sales/riviera_B4/livingroom.jpeg'
 import kitchen from '../../images/sales/riviera_118/kitchen.jpg'
 import riviera_115 from '../../images/sales/riviera_115/9.png'

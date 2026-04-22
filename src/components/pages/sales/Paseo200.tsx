@@ -2,16 +2,15 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import image1 from '../../../images/sales/paseo_200/1.jpeg'
-import image2 from '../../../images/sales/paseo_200/2.jpeg'
-import image3 from '../../../images/sales/paseo_200/3.jpeg'
-import image4 from '../../../images/sales/paseo_200/4.jpeg'
-import image5 from '../../../images/sales/paseo_200/5.jpeg'
-import image6 from '../../../images/sales/paseo_200/6.jpeg'
-import image7 from '../../../images/sales/paseo_200/7.jpeg'
-import image8 from '../../../images/sales/paseo_200/8.jpeg'
-import image9 from '../../../images/sales/paseo_200/9.jpeg'
-import image10 from '../../../images/sales/paseo_200/10.jpeg'
+import image1 from '../../../images/sales/paseo_200/1.png'
+import image2 from '../../../images/sales/paseo_200/2.png'
+import image3 from '../../../images/sales/paseo_200/3.png'
+import image4 from '../../../images/sales/paseo_200/4.png'
+import image5 from '../../../images/sales/paseo_200/5.png'
+import image6 from '../../../images/sales/paseo_200/6.png'
+import image7 from '../../../images/sales/paseo_200/7.png'
+import image8 from '../../../images/sales/paseo_200/8.png'
+import image9 from '../../../images/sales/paseo_200/9.png'
 import { useEffect } from 'react';
 
 function Paseo200 () {
@@ -41,7 +40,6 @@ function Paseo200 () {
                     <li data-target="#myCarousel" data-slide-to="6"></li>
                     <li data-target="#myCarousel" data-slide-to="7"></li>
                     <li data-target="#myCarousel" data-slide-to="8"></li>
-                    <li data-target="#myCarousel" data-slide-to="9"></li>
                 </ol>
 
                 {/* Wrapper for slides */}
@@ -72,9 +70,6 @@ function Paseo200 () {
                     </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image9}}></div>
-                    </div>
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image10}}></div>
                     </div>
                 </div>
 
