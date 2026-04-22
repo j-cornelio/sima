@@ -2,9 +2,14 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import livingroom from '../../../images/sales/riviera_118/livingroom.jpeg'
-import image2 from '../../../images/sales/riviera_118/2.jpg'
-import image3 from '../../../images/sales/riviera_118/3.jpg'
+import image1 from '../../../images/sales/riviera_118/1.png'
+import image2 from '../../../images/sales/riviera_118/2.png'
+import image3 from '../../../images/sales/riviera_118/3.png'
+import image4 from '../../../images/sales/riviera_118/4.png'
+import image5 from '../../../images/sales/riviera_118/5.png'
+import image6 from '../../../images/sales/riviera_118/6.png'
+import image7 from '../../../images/sales/riviera_118/7.png'
+import image8 from '../../../images/sales/riviera_118/8.png'
 
 function SalesRiviera4B () {
     return ( 
@@ -20,22 +25,41 @@ function SalesRiviera4B () {
                  <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 {/* Indicators */}
                 <ol className="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
                 </ol>
 
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + livingroom}}></div>
-                    </div>
-                    <div className="item active">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
-                    </div>
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
-                    </div>
+                      <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image1}}></div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
+                                        </div>
+                                        <div className="item active">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image4}}></div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image5}}></div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image6}}></div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image7}}></div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="sales-img" style={{backgroundImage:  "url(" + image8}}></div>
+                                        </div>
                 </div>
 
                 {/* Left and right controls */}

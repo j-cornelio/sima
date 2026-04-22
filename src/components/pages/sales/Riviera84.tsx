@@ -2,10 +2,10 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import image1 from '../../../images/sales/riviera_84/1.jpeg'
-import image2 from '../../../images/sales/riviera_84/2.jpeg'
-import image3 from '../../../images/sales/riviera_84/3.jpeg'
-import image4 from '../../../images/sales/riviera_84/4.jpeg'
+import image1 from '../../../images/sales/riviera_84/1.png'
+import image2 from '../../../images/sales/riviera_84/2.png'
+import image3 from '../../../images/sales/riviera_84/3.png'
+import image4 from '../../../images/sales/riviera_84/4.png'
 import { useEffect } from 'react';
 
 function SalesRiviera4B () {

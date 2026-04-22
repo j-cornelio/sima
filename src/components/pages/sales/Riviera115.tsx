@@ -2,10 +2,12 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import image1 from '../../../images/sales/riviera_115/1.jpeg'
-import image2 from '../../../images/sales/riviera_115/2.jpeg'
-import image3 from '../../../images/sales/riviera_115/3.jpeg'
-import image4 from '../../../images/sales/riviera_115/6.jpeg'
+import image1 from '../../../images/sales/riviera_115/1.png'
+import image2 from '../../../images/sales/riviera_115/2.png'
+import image3 from '../../../images/sales/riviera_115/3.png'
+import image4 from '../../../images/sales/riviera_115/4.png'
+import image5 from '../../../images/sales/riviera_115/5.png'
+import image6 from '../../../images/sales/riviera_115/6.png'
 import { useEffect } from 'react';
 
 function SalesRiviera4B () {
@@ -30,6 +32,8 @@ function SalesRiviera4B () {
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
 
                 {/* Wrapper for slides */}
@@ -44,7 +48,13 @@ function SalesRiviera4B () {
                         <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image4}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 80%", backgroundImage:  "url(" + image4}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image5}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image6}}></div>
                     </div>
                 </div>
 

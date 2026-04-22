@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import livingroom from '../../images/sales/riviera_B4/livingroom.jpeg'
-import kitchen from '../../images/sales/riviera_118/kitchen.jpg'
+import riviera118 from '../../images/sales/riviera_118/1.png'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 import { Link } from "react-router-dom";
 
@@ -34,7 +34,7 @@ function Rentals () {
               
               <div className="info col-md-4 sales-piece">
                 <Link  className="nav-link" to="./Riviera118">
-                  <img src={kitchen} width="250px" />
+                  <img src={riviera118} width="250px" />
                 </Link>
                 <div className="main-info">
                   <p>$185,000 amueblado</p>
