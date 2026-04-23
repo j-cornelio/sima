@@ -12,6 +12,7 @@ import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 import paseo_135 from '../../images/sales/riviera_135/livingroom.jpeg'
 import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpeg'
 import praderas     from '../../images/sales/praderas/3.jpeg'
+import samana from '../../images/sales/Villa_Samana/8.jpg'
 
 function Sales () {
     return (
@@ -233,16 +234,16 @@ function Sales () {
 
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="praderas">
-                <img src={praderas} height="332px" width="250px" />
+                <img src={samana} height="332px" width="250px" />
               </Link>
               <div className="main-info">
-                <p>$900,000</p>
-                <p>Las Praderas SDE</p>
+                <p>$1,800,000</p>
+                <p>La Bahía de Samaná</p>
               </div>
               <div className="sub-info">
-                <p>7 Dormitorios</p>
-                <p>7 Baños</p>
-                <p>16000 Mt2</p>
+                <p>32 Dormitorios</p>
+                <p>32 Baños</p>
+                <p>28,000 Mt2</p>
               <Link  className="nav-link" to="praderas">
                 <button>Ver Detalles</button>
               </Link>

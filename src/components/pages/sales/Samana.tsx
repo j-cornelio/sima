@@ -2,7 +2,7 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import livingroom from '../../../images/sales/Villa_Samana/3.jpeg'
+import image1 from '../../../images/sales/Villa_Samana/3.jpeg'
 import image2 from '../../../images/sales/Villa_Samana/2.jpeg'
 import image3 from '../../../images/sales/Villa_Samana/8.jpg'
 import { useEffect } from 'react';
@@ -19,7 +19,7 @@ function SalesRiviera4B () {
             <div className="row top-section">
                 <div id="heading" className="col-md-12">
                     <h1>Villa en Samana</h1>
-                    <h5>Hermoso terreno de oportunidad, 28,000M² en primara línea de playa en la bahía de Samaná playa la garita</h5>
+                    <h5>La Bahía de Samaná</h5>
                 </div>
             {/* CAROUSEL */}
                  <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -33,7 +33,7 @@ function SalesRiviera4B () {
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                     <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + livingroom}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image1}}></div>
                     </div>
                     <div className="item active">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
@@ -62,11 +62,10 @@ function SalesRiviera4B () {
                     <div className="icons">
                         <p><i className="fa-solid fa-bed"></i> <span>32 Habitaciones</span></p>
                         <p><i className="fa-solid fa-bath"></i> <span>32 Baños</span></p>
-                        <p><i className="fa-solid fa-car"></i> <span>2 Estacionamientos</span></p>
-                        <p><i className="fa-solid fa-ruler"></i> <span>135 Mt2</span></p>
+                        <p><i className="fa-solid fa-ruler"></i> <span>28,000 Mt2</span></p>
                     </div>
                     <h2>Descripcion</h2>
-                    <p>Este exclusivo proyecto de apartamentos, ubicado en el prestigioso polígono central de Santo Domingo, redefine el lujo y la comodidad con un diseño arquitectónico de vanguardia. Ideal para inversionistas y residentes exigentes, combina elegancia, funcionalidad y servicios de primera clase en un entorno privilegiado, a pasos de centros comerciales, bancos corporativos y la mejor oferta gastronómica y nocturna de la ciudad.</p>
+                    <p>Gran projecto para inversionistas.  Hermoso terreno de oportunidad, 28,000M² en primara línea de playa en la bahía de Samaná playa la garita</p>
                     <h2>Reflejos:</h2>
                 
                     <ul>
