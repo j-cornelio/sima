@@ -11,7 +11,7 @@ import image6 from '../../../images/sales/Villa_Punta_Cana/6.jpeg'
 import image7 from '../../../images/sales/Villa_Punta_Cana/7.png'
 import image8 from '../../../images/sales/Villa_Punta_Cana/8.png'
 import image9 from '../../../images/sales/Villa_Punta_Cana/9.png'
-import image10 from '../../../images/sales/Villa_Punta_Cana/10.png'
+import image10 from '../../../images/sales/Villa_Punta_Cana/13.png'
 import { useEffect } from 'react';
 
 function SalesRiviera4B () {
