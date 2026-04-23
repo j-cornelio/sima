@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import livingroom from '../../images/sales/riviera_B4/livingroom.jpeg'
+import riviera_b4 from '../../images/sales/riviera_B4/1.png'
 import punta_cana from '../../images/sales/Villa_Punta_Cana/drone_view.png'
 import samana from '../../images/sales/Villa_Samana/5.jpeg'
-import riviera156 from '../../images/sales/riviera_156/6.jpeg'
+import riviera156 from '../../images/sales/riviera_156/6.png'
 import riviera_118 from '../../images/sales/riviera_118/1.png'
 import balcony from '../../images/sales/paseo_220/balcony.jpg'
 import paseo_190 from '../../images/sales/paseo_190/1.png'
@@ -126,7 +126,7 @@ class Carousel extends React.Component {
                         <Link to="./sales/riviera-4b">
                             <div className="image-content">
                                 <span className="overlay"></span>
-                                <img src={livingroom} className="card-img" width="160px" />
+                                <img src={riviera_b4} className="card-img" width="160px" />
                             </div>
                         </Link>
                         <div className="card-content">

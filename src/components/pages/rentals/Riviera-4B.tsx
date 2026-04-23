@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import livingroom from '../../../images/sales/riviera_B4/livingroom.jpeg'
-import image2 from '../../../images/sales/riviera_B4/2.jpg'
-import image3 from '../../../images/sales/riviera_B4/3.jpg'
+import image1 from '../../../images/sales/riviera_B4/1.png'
+import image2 from '../../../images/sales/riviera_B4/2.png'
+import image3 from '../../../images/sales/riviera_B4/3.png'
 
 function SalesRiviera4B () {
     return ( 
@@ -28,13 +28,13 @@ function SalesRiviera4B () {
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                     <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + livingroom}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image1}}></div>
                     </div>
                     <div className="item active">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image2}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image2}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
                     </div>
                 </div>
 

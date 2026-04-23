@@ -2,9 +2,12 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import image1 from '../../../images/sales/riviera_156/6.jpeg'
-import image2 from '../../../images/sales/riviera_156/2.jpeg'
-import image3 from '../../../images/sales/riviera_156/3.jpeg'
+import image1 from '../../../images/sales/riviera_156/1.png'
+import image2 from '../../../images/sales/riviera_156/2.png'
+import image3 from '../../../images/sales/riviera_156/3.png'
+import image4 from '../../../images/sales/riviera_156/4.png'
+import image5 from '../../../images/sales/riviera_156/5.png'
+import image6 from '../../../images/sales/riviera_156/6.png'
 import { useEffect } from 'react';
 
 function SalesRiviera4B () {
@@ -28,6 +31,9 @@ function SalesRiviera4B () {
                 <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
 
                 {/* Wrapper for slides */}
@@ -36,10 +42,19 @@ function SalesRiviera4B () {
                         <div className="sales-img" style={{backgroundImage:  "url(" + image1}}></div>
                     </div>
                     <div className="item active">
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
+                    </div>
+                    <div className="item">
                         <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image4}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image5}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundImage:  "url(" + image6}}></div>
                     </div>
                 </div>
 

@@ -2,8 +2,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import paseo_200 from '../../images/sales/paseo_200/1.png'
-import livingroom from '../../images/sales/riviera_B4/livingroom.jpeg'
-import riviera118 from '../../images/sales/riviera_118/1.png'
+import riviera_b4 from '../../images/sales/riviera_B4/1.png'
+import riviera118 from '../../images/sales/riviera_118/6.png'
 import riviera_115 from '../../images/sales/riviera_115/2.png'
 import riviera_84 from '../../images/sales/riviera_84/1.png'
 import balcony from '../../images/sales/paseo_220/balcony.jpg'
@@ -43,7 +43,7 @@ function Sales () {
 
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="riviera-4b">
-                <img src={livingroom} width="250px" />
+                <img src={riviera_b4} width="250px" />
               </Link>
               <div className="main-info">
                 <p>$235,000 negociable</p>
@@ -208,6 +208,24 @@ function Sales () {
                 <p>3 Baños</p>
                 <p>84 Mt2</p>
               <Link  className="nav-link" to="riviera_84_2">
+                <button>Ver Detalles</button>
+              </Link>
+              </div>
+            </div>
+
+            <div className="info col-md-4 sales-piece">
+              <Link  className="nav-link" to="praderas">
+                <img src={praderas} height="332px" width="250px" />
+              </Link>
+              <div className="main-info">
+                <p>$900,000</p>
+                <p>Las Praderas SDE</p>
+              </div>
+              <div className="sub-info">
+                <p>7 Dormitorios</p>
+                <p>7 Baños</p>
+                <p>16000 Mt2</p>
+              <Link  className="nav-link" to="praderas">
                 <button>Ver Detalles</button>
               </Link>
               </div>

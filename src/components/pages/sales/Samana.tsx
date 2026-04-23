@@ -2,9 +2,9 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import ContactPerson from "../../includes/ContactPerson";
-import livingroom from '../../../images/sales/riviera_B4/livingroom.jpeg'
-import image2 from '../../../images/sales/riviera_B4/2.jpg'
-import image3 from '../../../images/sales/riviera_B4/3.jpg'
+import livingroom from '../../../images/sales/Villa_Samana/3.jpeg'
+import image2 from '../../../images/sales/Villa_Samana/2.jpeg'
+import image3 from '../../../images/sales/Villa_Samana/8.jpg'
 import { useEffect } from 'react';
 
 function SalesRiviera4B () {
@@ -33,13 +33,13 @@ function SalesRiviera4B () {
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + livingroom}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + livingroom}}></div>
                     </div>
                     <div className="item active">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image3}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
                     </div>
                     <div className="item">
-                        <div className="sales-img" style={{backgroundImage:  "url(" + image2}}></div>
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image2}}></div>
                     </div>
                 </div>
 

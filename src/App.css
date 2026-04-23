@@ -306,9 +306,6 @@ button.buttonstyle {
 }
 
 /* CAROUSEL */
-#myCarousel {
-    margin-bottom: 40px;
-}
 
 #Carousel button, #Carousel button {
     transition: all 1s ease;
