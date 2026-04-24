@@ -106,7 +106,7 @@ function Contact () {
             </div>
             <div>
               <p className="font-body font-medium text-foreground">Correo electrónico</p>
-              <p className="font-body text-muted-foreground"><a href="mailto:empjulio@gmail.com">empjulio@gmail.com</a></p>
+              <p className="font-body text-muted-foreground"><a href="mailto:certezacomercial43@gmail.com">certezacomercial43@gmail.com</a></p>
             </div>
           </div>
 
