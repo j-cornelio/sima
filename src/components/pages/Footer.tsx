@@ -38,7 +38,7 @@ function Footer () {
                 <div className="col-md-3">
                     <h2>SIGUENOS</h2>
                     <p className="multimedia">
-                        <Link target="_blan" to="https://www.facebook.com/sima.rep.dom">
+                        <Link target="_blan" to="https://www.facebook.com/Sima.Realtor">
                             <i className="fa-brands fa-facebook-f"></i>
                         </Link>
                         <Link target="_blan" to="https://www.instagram.com/sima_rd01">
