@@ -767,6 +767,7 @@ font-weight: 600;
   }
   .nav-links li{
     margin: 15px 10px;
+    display: block;
   }
   .nav-links li a{
     padding: 0 20px;
