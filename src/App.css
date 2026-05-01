@@ -594,10 +594,10 @@ nav#sima {
   height: 116px;
   background: var(--brand-green);
 }
-nav .wrapper{
+nav .wrapper {
   position: relative;
   max-width: 1300px;
-  padding: 0px 30px;
+  padding: 24px 30px 0;
   height: 70px;
   line-height: 70px;
   margin: auto;
@@ -605,7 +605,7 @@ nav .wrapper{
   align-items: center;
   justify-content: space-between;
 }
-.wrapper .logo a{
+.wrapper .logo a {
   color: #f2f2f2;
   font-size: 30px;
   font-weight: 600;

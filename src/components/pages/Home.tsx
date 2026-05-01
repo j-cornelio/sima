@@ -1,10 +1,10 @@
+import React, { useEffect } from 'react';
 import Carousel from "../includes/Carousel";
 import Video from "./Video";
 import { Link } from "react-router-dom";
 import lux_room from "../../images/lux_livingroom.jpg";
 import bedroom from "../../images/bedroom.png";
 import AOS from 'aos';
-import React, { useEffect } from 'react';
 import 'aos/dist/aos.css'; 
 //https://michalsnik.github.io/aos/
 
