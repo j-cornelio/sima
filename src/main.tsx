@@ -3,10 +3,16 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import Contact from './components/pages/Contact'
-import Sales from './components/pages/Sales'
-import Rentals from './components/pages/Rentals'
 import About from './components/pages/About'
 import NotFound from './components/pages/NotFound'
+
+import Rentals from './components/pages/Rentals'
+import RentalsRiviera4B from './components/pages/rentals/Riviera-4B'
+import RentalsRiviera118 from './components/pages/rentals/Riviera118'
+import RentalsPaseo165 from './components/pages/rentals/Paseo165'
+import RentalsPlaza from './components/pages/rentals/Plaza'
+
+import Sales from './components/pages/Sales'
 import Riviera4B from './components/pages/sales/Riviera-4B'
 import Samana from './components/pages/sales/Samana'
 import PuntaCana from './components/pages/sales/PuntaCana'
@@ -19,11 +25,9 @@ import Riviera135 from './components/pages/sales/Riviera135'
 import Riviera115 from './components/pages/sales/Riviera115'
 import Riviera84 from './components/pages/sales/Riviera84'
 import Riviera84_2 from './components/pages/sales/Riviera84_2'
-import RentalsRiviera4B from './components/pages/rentals/Riviera-4B'
-import RentalsRiviera118 from './components/pages/rentals/Riviera118'
-import RentalsPaseo165 from './components/pages/rentals/Paseo165'
 import Paseo200 from './components/pages/sales/Paseo200'
 import Praderas from './components/pages/sales/Praderas'
+
 import Melvin from './components/melvin/App'
 import Sticky from './components/sticky-nav/Main'
 
@@ -49,6 +53,8 @@ const router = createBrowserRouter([
   {path:"/sales/riviera_84_2", element: <Riviera84_2 />},
   {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
+  {path:"/rentals/plaza", element: <RentalsPlaza />},
+  
   {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},
   {path:"/sales/Paseo200", element: <Paseo200 />},
   {path:"/sales/Praderas", element: <Praderas />},
