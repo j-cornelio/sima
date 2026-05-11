@@ -16,7 +16,7 @@ function Riviera165 () {
        <div id="sales" className="container">
             <div className="row top-section">
                 <div id="heading" className="col-md-12">
-                    <h1>Plaza en Arollo Ondo - 50 Mt2 y 30 Mt2 </h1>
+                    <h1>Plaza en Arollo Ondo Viejo</h1>
                     <h5>C. Gral. F. Rodríguez 1, Santo Domingo 10510</h5>
                 </div>
             {/* CAROUSEL */}
@@ -64,17 +64,17 @@ function Riviera165 () {
             </div>
             <div className="row">
                 <div className="col-md-6 content">
-                    <h1 className="price">Precio: 50 Mt2 - $750 | 50 Mt2 - $450</h1>
+                    <h1 className="price">Precio: 50 Mt2 - $750</h1>
                     <div className="icons">
-                        <p><i className="fa-solid fa-bed"></i> <span>2 Hab</span></p>
                         <p><i className="fa-solid fa-bath"></i> <span>2 Baños</span></p>
-                        <p><i className="fa-solid fa-car"></i> <span>1 Estacionamientos</span></p>
+                        <p><i className="fa-solid fa-car"></i> <span>Parqueos Disponibles</span></p>
                         <p><i className="fa-solid fa-ruler"></i> <span>50 Mt2</span></p>
                     </div>
 
                     <h2>Reflejos:</h2>
                     <ul>
-                        <li>2 habitaciones</li>
+                        <li>Zona Residencial</li>
+                        <li>Precio de Alquiler: US$750</li>
                     </ul>
                 </div>
                 <div className="col-md-6 contact">

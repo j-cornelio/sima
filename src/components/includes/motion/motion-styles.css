@@ -1,0 +1,32 @@
+/* The section acts as the viewport */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Background image — the magic is background-attachment: fixed */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* ← this is the parallax */
+}
+
+/* Dark overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Text content */
+.hero-content {
+  position: relative;
+  z-index: 10;
+  padding: 0 1.5rem;
+}

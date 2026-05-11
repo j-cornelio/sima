@@ -29,6 +29,7 @@ import Paseo200 from './components/pages/sales/Paseo200'
 import Praderas from './components/pages/sales/Praderas'
 
 import Melvin from './components/melvin/App'
+import Motion from './components/includes/motion/Motion'
 import Sticky from './components/sticky-nav/Main'
 
 const router = createBrowserRouter([
@@ -59,6 +60,7 @@ const router = createBrowserRouter([
   {path:"/sales/Paseo200", element: <Paseo200 />},
   {path:"/sales/Praderas", element: <Praderas />},
   {path:"/melvin", element: <Melvin />},
+  {path:"/motion", element: <Motion />},
   {path:"/sticky", element: <Sticky />}
 ]);
 
