@@ -16,7 +16,7 @@ function Riviera165 () {
        <div id="sales" className="container">
             <div className="row top-section">
                 <div id="heading" className="col-md-12">
-                    <h1>Plaza en Arollo Hondo Viejo</h1>
+                    <h1>Plaza en Arrollo Hondo Viejo</h1>
                     <h5>C. Gral. F. Rodríguez 1, Santo Domingo 10510</h5>
                 </div>
             {/* CAROUSEL */}
@@ -64,7 +64,7 @@ function Riviera165 () {
             </div>
             <div className="row">
                 <div className="col-md-6 content">
-                    <h1 className="price">Precio: $750</h1>
+                    <h1 className="price">Precio: $750 Mensual</h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-bath"></i> <span>2 Baños</span></p>
                         <p><i className="fa-solid fa-car"></i> <span>Parqueos Disponibles</span></p>
