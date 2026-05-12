@@ -22,7 +22,7 @@ function Rentals () {
                 </Link>
                 <div className="main-info">
                   <p>$750 mensual</p>
-                  <p>Arrollo Ondo Viejo</p>
+                  <p>Arrollo Hondo Viejo</p>
                 </div>
                 <div className="sub-info">
                   <p>2 Cuartos</p>
