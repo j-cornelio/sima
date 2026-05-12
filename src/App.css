@@ -164,11 +164,11 @@ h1 {
 }
 #sales #heading h1 {
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 0;
 }
 #sales #heading h5 {
     font-size: 18px;
-    margin: 5px 0 10px;
+    margin: 5px 0 20px;
 }
 #sales #heading h1, 
 #sales #heading h5 {
