@@ -493,6 +493,7 @@ a.w-link {
 
 a.w-link svg {
     margin-right: 10px;
+    display: inline;
 }
 
 .w-inner {
