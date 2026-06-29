@@ -8,7 +8,7 @@ function Contact () {
     const [result, setResult] = useState("");
       
     const handleChange = (e: any) => {
-        setValues({...values, [e.target.name]: [e.target.value]})
+        setValues({...values, [e.target.name]: e.target.value})
     }
     
     const onSubmit = async (event: any) => {
