@@ -26,11 +26,17 @@ function Contact () {
       const data = await response.json();
       setResult(data.success ? "Success!" : "Error");
 
-      console.log('VALUES SENT - ', values)
+      console.log("VALUES SENT - ", values);
 
-      axios.post('https://api.sima-rd.net/contact', values)    
-              .then(res => console.log("CONNECTED! - values -> ", values))
-              .catch((err) => console.log('error: ', err))
+      try {
+        const res = await axios.post("https://api.sima-rd.net/contact", values);
+        console.log("CONNECTED! status:", res.status);
+        console.log("response data:", res.data);
+      } catch (err: any) {
+        console.log("error status:", err.response?.status);
+        console.log("error data:", err.response?.data);
+        console.log("error:", err);
+      }
     }
 
     return (
