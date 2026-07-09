@@ -110,6 +110,10 @@ ul.navbar-nav {
     margin: 0;
 }
 
+#sales .sales-piece img {
+    height: 333px;
+    width: 250px;
+}
 #sales .sub-info button {
     padding: 4px 20px;
     background-color: rgb(204, 170, 121);

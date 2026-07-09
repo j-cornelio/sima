@@ -26,7 +26,7 @@ function Sales () {
           <div className="row">
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="paseo200">
-                <img src={paseo_200} width="250px" />
+                <img src={paseo_200} />
               </Link>
               <div className="main-info">
                 <p>$460,000 negociable</p>
@@ -44,7 +44,7 @@ function Sales () {
 
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="riviera-4b">
-                <img src={riviera_b4} width="250px" />
+                <img src={riviera_b4} />
               </Link>
               <div className="main-info">
                 <p>$235,000 negociable</p>
@@ -62,7 +62,7 @@ function Sales () {
             
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Riviera118">
-                <img src={riviera118} width="250px" />
+                <img src={riviera118} />
               </Link>
               <div className="main-info">
                 <p>$185,000 amueblado</p>
@@ -84,7 +84,7 @@ function Sales () {
           <div className="row">
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Paseo220">
-                <img src={balcony} width="250px" />
+                <img src={balcony} />
               </Link>
               <div className="main-info">
                 <p>$377,000 negociable</p>
@@ -101,7 +101,7 @@ function Sales () {
             </div>
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Paseo190">
-                <img src={paseo_190} width="250px" />
+                <img src={paseo_190} />
               </Link>
               <div className="main-info">
                 <p>$390,800 negociable</p>
@@ -119,7 +119,7 @@ function Sales () {
             
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Paseo165">
-                <img src={paseo_165} height="332px" width="250px" />
+                <img src={paseo_165} />
               </Link>
               <div className="main-info">
                 <p>$335,000 negociable</p>
@@ -141,7 +141,7 @@ function Sales () {
           <div className="row">
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Riviera135">
-                <img src={paseo_135} width="250px" />
+                <img src={paseo_135} />
               </Link>
               <div className="main-info">
                 <p>$235,000 amueblado</p>
@@ -159,7 +159,7 @@ function Sales () {
             
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Riviera115">
-                <img src={riviera_115} height="332px" width="250px" />
+                <img src={riviera_115} />
               </Link>
               <div className="main-info">
                 <p>$200,000 Neg. Amueblado</p>
@@ -177,7 +177,7 @@ function Sales () {
             
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="Riviera84">
-                <img src={riviera_84} height="332px" width="250px" />
+                <img src={riviera_84} />
               </Link>
               <div className="main-info">
                 <p>$160,000 negociable</p>
@@ -198,7 +198,7 @@ function Sales () {
           <div className="row">
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="riviera_84_2">
-                <img src={riviera_84_2} height="332px" width="250px" />
+                <img src={riviera_84_2} />
               </Link>
               <div className="main-info">
                 <p>$160,000 negociable</p>
@@ -216,7 +216,7 @@ function Sales () {
 
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="praderas">
-                <img src={praderas} height="332px" width="250px" />
+                <img src={praderas} />
               </Link>
               <div className="main-info">
                 <p>$900,000</p>
@@ -234,7 +234,7 @@ function Sales () {
 
             <div className="info col-md-4 sales-piece">
               <Link  className="nav-link" to="praderas">
-                <img src={samana} height="332px" width="250px" />
+                <img src={samana} />
               </Link>
               <div className="main-info">
                 <p>$1,800,000</p>
