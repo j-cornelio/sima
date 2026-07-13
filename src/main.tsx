@@ -27,6 +27,7 @@ import Riviera84 from './components/pages/sales/Riviera84'
 import Riviera84_2 from './components/pages/sales/Riviera84_2'
 import Paseo200 from './components/pages/sales/Paseo200'
 import Praderas from './components/pages/sales/Praderas'
+import Independencia from './components/pages/sales/Independencia'
 
 import Melvin from './components/melvin/App'
 import Motion from './components/includes/motion/Motion'
@@ -52,6 +53,8 @@ const router = createBrowserRouter([
   {path:"/sales/Riviera115", element: <Riviera115 />},
   {path:"/sales/Riviera84", element: <Riviera84 />},
   {path:"/sales/riviera_84_2", element: <Riviera84_2 />},
+  {path:"/sales/independencia", element: <Independencia />},
+
   {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
   {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
   {path:"/rentals/plaza", element: <RentalsPlaza />},
