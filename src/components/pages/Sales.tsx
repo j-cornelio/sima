@@ -13,6 +13,7 @@ import paseo_135 from '../../images/sales/riviera_135/livingroom.jpeg'
 import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpeg'
 import praderas     from '../../images/sales/praderas/3.jpeg'
 import samana from '../../images/sales/Villa_Samana/8.jpg'
+import independencia from '../../images/sales/independencia/outside.png'
 
 function Sales () {
     return (
@@ -25,18 +26,18 @@ function Sales () {
 
           <div className="row">
             <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="paseo200">
-                <img src={paseo_200} />
+              <Link  className="nav-link" to="independencia">
+                <img src={independencia} />
               </Link>
               <div className="main-info">
-                <p>$460,000 negociable</p>
-                <p>Paseo del Carmen Tower</p>
+                <p>$1???</p>
+                <p>Independencia</p>
               </div>
               <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>4.5 Baños</p>
-                <p>200 Mt2</p>
-                <Link  className="nav-link" to="paseo200">
+                <p>2 Niveless</p>
+                <p>27 cubículos para oficinas total</p>
+                <p>y muchos mas...</p>
+                <Link  className="nav-link" to="independencia">
                   <button>Ver Detalles</button>
                 </Link>
               </div>
@@ -251,6 +252,29 @@ function Sales () {
             </div>
           
           </div>
+  
+{/* ROW 5 */}
+
+          <div className="row">
+            <div className="info col-md-4 sales-piece">
+              <Link  className="nav-link" to="paseo200">
+                <img src={paseo_200} />
+              </Link>
+              <div className="main-info">
+                <p>$460,000 negociable</p>
+                <p>Paseo del Carmen Tower</p>
+              </div>
+              <div className="sub-info">
+                <p>3 Dormitorios</p>
+                <p>4.5 Baños</p>
+                <p>200 Mt2</p>
+                <Link  className="nav-link" to="paseo200">
+                  <button>Ver Detalles</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
         </div>   
       </div>      
 
