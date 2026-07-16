@@ -73,11 +73,11 @@ function Riviera165 () {
                     <h1 className="price">Precio: $2.6 Millones</h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-building"></i> <span>2 Niveles</span></p>
-                        <p><i className="fa-solid fa-print"></i> <span>27 Cubículos Para Oficinas Total</span></p>
+                        <p><i className="fa-solid fa-print"></i> <span>27 Cubículos Para Oficinas</span></p>
                         <p><i className="fa-solid fa-bath"></i> <span>4 Baños </span></p>
                     </div>
 
-                    <h2>Reflejos</h2>
+                    <h2>Descripción</h2>
 
                     <ul>
                         <li className="areas-header">Primer Nivel:</li>
