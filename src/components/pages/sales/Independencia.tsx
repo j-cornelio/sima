@@ -7,8 +7,9 @@ import image1 from '../../../images/sales/independencia/2-H.png'
 import image2 from '../../../images/sales/independencia/3-H.png'
 import image3 from '../../../images/sales/independencia/4-H.png'
 import image4 from '../../../images/sales/independencia/5-H.png'
-import image5 from '../../../images/sales/independencia/6-H.png'
-import image8 from '../../../images/sales/independencia/8-horizontal.png'
+import image5 from '../../../images/sales/independencia/12-H.png'
+import image6 from '../../../images/sales/independencia/13-H.png'
+import image7 from '../../../images/sales/independencia/14-H.png'
 import { useEffect } from 'react';
 
 function Riviera165 () {
@@ -34,6 +35,9 @@ function Riviera165 () {
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                     <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
                 </ol>
 
                 {/* Wrapper for slides */}
@@ -52,6 +56,15 @@ function Riviera165 () {
                     </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image4}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image5}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image6}}></div>
+                    </div>
+                    <div className="item">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image7}}></div>
                     </div>
                 </div>
 
