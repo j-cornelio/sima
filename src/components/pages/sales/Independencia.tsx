@@ -88,6 +88,7 @@ function Riviera165 () {
                         <p><i className="fa-solid fa-building"></i> <span>2 Niveles</span></p>
                         <p><i className="fa-solid fa-print"></i> <span>27 Cubículos Para Oficinas</span></p>
                         <p><i className="fa-solid fa-bath"></i> <span>4 Baños </span></p>
+                        <p><i className="fa-solid fa-ruler"></i> <span>1100 Mt2</span></p>
                     </div>
 
                     <h2>Descripción</h2>
