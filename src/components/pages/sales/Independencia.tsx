@@ -83,7 +83,7 @@ function Riviera165 () {
             </div>
             <div className="row">
                 <div className="col-md-6 content">
-                    <h1 className="price">Precio: $2.6 Millones</h1>
+                    <h1 className="price">Precio: $2.6 Millones Negociable</h1>
                     <div className="icons">
                         <p><i className="fa-solid fa-building"></i> <span>2 Niveles</span></p>
                         <p><i className="fa-solid fa-print"></i> <span>27 Cubículos Para Oficinas</span></p>
