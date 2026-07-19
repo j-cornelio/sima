@@ -42,10 +42,13 @@ function Riviera165 () {
 
                 {/* Wrapper for slides */}
                 <div className="carousel-inner">
+                    <div className="item active">
+                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image6}}></div>
+                    </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image0}}></div>
                     </div>
-                    <div className="item active">
+                    <div className="item">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image1}}></div>
                     </div>
                     <div className="item">
@@ -59,9 +62,6 @@ function Riviera165 () {
                     </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image5}}></div>
-                    </div>
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image6}}></div>
                     </div>
                     <div className="item">
                         <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image7}}></div>
