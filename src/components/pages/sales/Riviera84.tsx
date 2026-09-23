@@ -8,93 +8,93 @@ import image3 from '../../../images/sales/riviera_84/3.png'
 import image4 from '../../../images/sales/riviera_84/4.png'
 import { useEffect } from 'react';
 
-function SalesRiviera4B () {
+function SalesRiviera4B() {
     useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+        window.scrollTo(0, 0);
+    }, []);
 
-    return ( 
-    <>
-      <Header />
-       <div id="sales" className="container">
-            <div className="row top-section">
-                <div id="heading" className="col-md-12">
-                    <h1>Riviera Colonial</h1>
-                    <h5>SANTO DOMINGO ESTE</h5>
-                </div>
-            {/* CAROUSEL */}
-                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
-                {/* Indicators */}
-                <ol className="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
+    return (
+        <>
+            <Header />
+            <div id="sales" className="container">
+                <div className="row top-section">
+                    <div id="heading" className="col-md-12">
+                        <h1>Riviera Colonial</h1>
+                        <h5>SANTO DOMINGO ESTE</h5>
+                    </div>
+                    {/* CAROUSEL */}
+                    <div id="myCarousel" className="carousel slide" data-ride="carousel">
+                        {/* Indicators */}
+                        <ol className="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
 
-                {/* Wrapper for slides */}
-                <div className="carousel-inner">
-                    <div className="item active">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image1}}></div>
-                    </div>
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image2}}></div>
-                    </div>
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image3}}></div>
-                    </div>
-                    <div className="item">
-                        <div className="sales-img" style={{backgroundPosition: "25% 50%", backgroundImage:  "url(" + image4}}></div>
-                    </div>
-                </div>
+                        {/* Wrapper for slides */}
+                        <div className="carousel-inner">
+                            <div className="item active">
+                                <div className="sales-img" style={{ backgroundPosition: "25% 50%", backgroundImage: "url(" + image1 }}></div>
+                            </div>
+                            <div className="item">
+                                <div className="sales-img" style={{ backgroundPosition: "25% 50%", backgroundImage: "url(" + image2 }}></div>
+                            </div>
+                            <div className="item">
+                                <div className="sales-img" style={{ backgroundPosition: "25% 50%", backgroundImage: "url(" + image3 }}></div>
+                            </div>
+                            <div className="item">
+                                <div className="sales-img" style={{ backgroundPosition: "25% 50%", backgroundImage: "url(" + image4 }}></div>
+                            </div>
+                        </div>
 
-                {/* Left and right controls */}
-                <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span className="glyphicon glyphicon-chevron-left"></span>
-                <span className="sr-only">Previous</span>
-                </a>
-                <a className="right carousel-control" href="#myCarousel" data-slide="next">
-                <span className="glyphicon glyphicon-chevron-right"></span>
-                <span className="sr-only">Next</span>
-                </a>
-            </div>
-                
-            {/* bottom 2 Cols */}
-            </div>
-            <div className="row">
-                <div className="col-md-6 content">
-                    <h1 className="price">Precio: $185,000 amueblado</h1>
-                    <div className="icons">
-                        <p><i className="fa-solid fa-bed"></i> <span>3 Habitaciones</span></p>
-                        <p><i className="fa-solid fa-bath"></i> <span>2.5 Baños</span></p>
-                        <p><i className="fa-solid fa-car"></i> <span>2 Estacionamientos</span></p>
-                        <p><i className="fa-solid fa-ruler"></i> <span>84 Mt2</span></p>
+                        {/* Left and right controls */}
+                        <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span className="glyphicon glyphicon-chevron-left"></span>
+                            <span className="sr-only">Previous</span>
+                        </a>
+                        <a className="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span className="glyphicon glyphicon-chevron-right"></span>
+                            <span className="sr-only">Next</span>
+                        </a>
                     </div>
-                    <h2>Descripcion</h2>
-                    <p>Descubra un sofisticado complejo de apartamentos en el corazón del distrito central más codiciado de Santo Domingo. Diseñada para la vida moderna, esta residencia combina una arquitectura elegante con comodidad y funcionalidad. Ideal tanto para inversionistas como para quienes buscan una vivienda propia, ofrece una ubicación privilegiada a solo minutos de los mejores centros comerciales, centros financieros y los restaurantes y locales nocturnos más exclusivos de la ciudad.</p>
-                    <h2>Reflejos:</h2>
-                    <ul>
-                        <li>Área de lavado</li>
-                        <li>Baño de servicio</li>
-                        <li>Comedor</li>
-                        <li>Cocina</li>
-                        <li>Balcón</li>
-                        <li className="areas-header">Áreas Sociales:</li>
-                        <li>3 piscinas</li>
-                        <li>3 terrazas</li>
-                        <li>Sendero de caminar</li>
-                        <li>Gimnasio</li>
-                        <li>Sauna</li>
-                        <li>Area de niños</li>
-                    </ul>
+
+                    {/* bottom 2 Cols */}
                 </div>
-                <div className="col-md-6 contact">
-                    <ContactPerson />
+                <div className="row">
+                    <div className="col-md-6 content">
+                        <h1 className="price">Precio: $185,000 USD amueblado</h1>
+                        <div className="icons">
+                            <p><i className="fa-solid fa-bed"></i> <span>3 Habitaciones</span></p>
+                            <p><i className="fa-solid fa-bath"></i> <span>2.5 Baños</span></p>
+                            <p><i className="fa-solid fa-car"></i> <span>2 Estacionamientos</span></p>
+                            <p><i className="fa-solid fa-ruler"></i> <span>84 Mt2</span></p>
+                        </div>
+                        <h2>Descripcion</h2>
+                        <p>Descubra un sofisticado complejo de apartamentos en el corazón del distrito central más codiciado de Santo Domingo. Diseñada para la vida moderna, esta residencia combina una arquitectura elegante con comodidad y funcionalidad. Ideal tanto para inversionistas como para quienes buscan una vivienda propia, ofrece una ubicación privilegiada a solo minutos de los mejores centros comerciales, centros financieros y los restaurantes y locales nocturnos más exclusivos de la ciudad.</p>
+                        <h2>Reflejos:</h2>
+                        <ul>
+                            <li>Área de lavado</li>
+                            <li>Baño de servicio</li>
+                            <li>Comedor</li>
+                            <li>Cocina</li>
+                            <li>Balcón</li>
+                            <li className="areas-header">Áreas Sociales:</li>
+                            <li>3 piscinas</li>
+                            <li>3 terrazas</li>
+                            <li>Sendero de caminar</li>
+                            <li>Gimnasio</li>
+                            <li>Sauna</li>
+                            <li>Area de niños</li>
+                        </ul>
+                    </div>
+                    <div className="col-md-6 contact">
+                        <ContactPerson />
+                    </div>
                 </div>
             </div>
-        </div>
-        <Footer />
-    </>
+            <Footer />
+        </>
     )
 }
 
