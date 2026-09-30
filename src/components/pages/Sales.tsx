@@ -11,194 +11,195 @@ import paseo_190 from '../../images/sales/paseo_190/1.png'
 import paseo_165 from '../../images/sales/paseo_165/24.jpeg'
 import paseo_135 from '../../images/sales/riviera_135/livingroom.jpeg'
 import riviera_84_2 from '../../images/sales/riviera_84_2/1.jpeg'
-import praderas     from '../../images/sales/praderas/3.jpeg'
+import praderas from '../../images/sales/praderas/3.jpeg'
 import samana from '../../images/sales/Villa_Samana/8.jpg'
 import independencia from '../../images/sales/independencia/outside.png'
+import roraima from '../../images/sales/roraima/1.png'
 
-function Sales () {
-    return (
+function Sales() {
+  return (
     <>
       <Header />
-        <div id="sales" className="container">
-          <h1>Propiedades Residenciales En Venta</h1>
+      <div id="sales" className="container">
+        <h1>Propiedades Residenciales En Venta</h1>
 
-{/* ROW 1 */}
+        {/* ROW 1 */}
 
-          <div className="row">
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="independencia">
-                <img src={independencia} />
-              </Link>
-              <div className="main-info">
-                <p>$1???</p>
-                <p>Independencia</p>
-              </div>
-              <div className="sub-info">
-                <p>2 Niveless</p>
-                <p>27 cubículos para oficinas total</p>
-                <p>y muchos mas...</p>
-                <Link  className="nav-link" to="independencia">
-                  <button>Ver Detalles</button>
-                </Link>
-              </div>
+        <div className="row">
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="independencia">
+              <img src={independencia} />
+            </Link>
+            <div className="main-info">
+              <p>$1???</p>
+              <p>Independencia</p>
             </div>
-
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="riviera-4b">
-                <img src={riviera_b4} />
-              </Link>
-              <div className="main-info">
-                <p>$235,000 negociable</p>
-                <p>Riviera Colonial</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>2.5 Baños</p>
-                <p>135 Mt2</p>
-                <Link  className="nav-link" to="riviera-4b">
-                  <button>Ver Detalles</button>
-                </Link>
-              </div>
-            </div>
-            
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Riviera118">
-                <img src={riviera118} />
-              </Link>
-              <div className="main-info">
-                <p>$185,000 amueblado</p>
-                <p>Riviera Colonial</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>2.5 Baños</p>
-                <p>118 Mt2</p>
-              <Link  className="nav-link" to="Riviera118">
+            <div className="sub-info">
+              <p>2 Niveless</p>
+              <p>27 cubículos para oficinas total</p>
+              <p>y muchos mas...</p>
+              <Link className="nav-link" to="independencia">
                 <button>Ver Detalles</button>
               </Link>
-              </div>
             </div>
           </div>
 
-{/* ROW 2 */}
-
-          <div className="row">
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Paseo220">
-                <img src={balcony} />
-              </Link>
-              <div className="main-info">
-                <p>$377,000 negociable</p>
-                <p>Torre Paseo del Carmen</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>3.5 Baños</p>
-                <p>220 Mt2</p>
-                <Link  className="nav-link" to="Paseo220">
-                  <button>Ver Detalles</button>
-                </Link>
-              </div>
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="riviera-4b">
+              <img src={riviera_b4} />
+            </Link>
+            <div className="main-info">
+              <p>$235,000 negociable</p>
+              <p>Riviera Colonial</p>
             </div>
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Paseo190">
-                <img src={paseo_190} />
-              </Link>
-              <div className="main-info">
-                <p>$390,800 negociable</p>
-                <p>Torre Paseo del Carmen</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>3.5 Baños</p>
-                <p>190 Mt2</p>
-              <Link  className="nav-link" to="Paseo190">
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>2.5 Baños</p>
+              <p>135 Mt2</p>
+              <Link className="nav-link" to="riviera-4b">
                 <button>Ver Detalles</button>
               </Link>
-              </div>
-            </div>
-            
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Paseo165">
-                <img src={paseo_165} />
-              </Link>
-              <div className="main-info">
-                <p>$335,000 negociable</p>
-                <p>Riviera Colonial</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>3.5 Baños</p>
-                <p>165 Mt2</p>
-              <Link  className="nav-link" to="Paseo165">
-                <button>Ver Detalles</button>
-              </Link>
-              </div>
             </div>
           </div>
 
-{/* ROW 3 */}
-
-          <div className="row">
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Riviera135">
-                <img src={paseo_135} />
-              </Link>
-              <div className="main-info">
-                <p>$235,000 amueblado</p>
-                <p>Riviera Colonial</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>2.5 Baños</p>
-                <p>135 Mt2</p>
-                <Link  className="nav-link" to="Riviera135">
-                  <button>Ver Detalles</button>
-                </Link>
-              </div>
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Riviera118">
+              <img src={riviera118} />
+            </Link>
+            <div className="main-info">
+              <p>$185,000 amueblado</p>
+              <p>Riviera Colonial</p>
             </div>
-            
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Riviera115">
-                <img src={riviera_115} />
-              </Link>
-              <div className="main-info">
-                <p>$200,000 Neg. Amueblado</p>
-                <p>Riviera Colonial</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>3 Baños</p>
-                <p>115 Mt2</p>
-                <Link  className="nav-link" to="Riviera115">
-                  <button>Ver Detalles</button>
-                </Link>
-              </div>
-            </div>
-            
-            <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="Riviera84">
-                <img src={riviera_84} />
-              </Link>
-              <div className="main-info">
-                <p>$160,000 negociable</p>
-                <p>Riviera Colonial</p>
-              </div>
-              <div className="sub-info">
-                <p>3 Dormitorios</p>
-                <p>3 Baños</p>
-                <p>84 Mt2</p>
-              <Link  className="nav-link" to="Riviera84">
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>2.5 Baños</p>
+              <p>118 Mt2</p>
+              <Link className="nav-link" to="Riviera118">
                 <button>Ver Detalles</button>
               </Link>
-              </div>
             </div>
-  
-{/* ROW 4 */}
+          </div>
+        </div>
+
+        {/* ROW 2 */}
+
+        <div className="row">
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Paseo220">
+              <img src={balcony} />
+            </Link>
+            <div className="main-info">
+              <p>$377,000 negociable</p>
+              <p>Torre Paseo del Carmen</p>
+            </div>
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>3.5 Baños</p>
+              <p>220 Mt2</p>
+              <Link className="nav-link" to="Paseo220">
+                <button>Ver Detalles</button>
+              </Link>
+            </div>
+          </div>
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Paseo190">
+              <img src={paseo_190} />
+            </Link>
+            <div className="main-info">
+              <p>$390,800 negociable</p>
+              <p>Torre Paseo del Carmen</p>
+            </div>
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>3.5 Baños</p>
+              <p>190 Mt2</p>
+              <Link className="nav-link" to="Paseo190">
+                <button>Ver Detalles</button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Paseo165">
+              <img src={paseo_165} />
+            </Link>
+            <div className="main-info">
+              <p>$335,000 negociable</p>
+              <p>Riviera Colonial</p>
+            </div>
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>3.5 Baños</p>
+              <p>165 Mt2</p>
+              <Link className="nav-link" to="Paseo165">
+                <button>Ver Detalles</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* ROW 3 */}
+
+        <div className="row">
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Riviera135">
+              <img src={paseo_135} />
+            </Link>
+            <div className="main-info">
+              <p>$235,000 amueblado</p>
+              <p>Riviera Colonial</p>
+            </div>
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>2.5 Baños</p>
+              <p>135 Mt2</p>
+              <Link className="nav-link" to="Riviera135">
+                <button>Ver Detalles</button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Riviera115">
+              <img src={riviera_115} />
+            </Link>
+            <div className="main-info">
+              <p>$200,000 Neg. Amueblado</p>
+              <p>Riviera Colonial</p>
+            </div>
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>3 Baños</p>
+              <p>115 Mt2</p>
+              <Link className="nav-link" to="Riviera115">
+                <button>Ver Detalles</button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="info col-md-4 sales-piece">
+            <Link className="nav-link" to="Riviera84">
+              <img src={riviera_84} />
+            </Link>
+            <div className="main-info">
+              <p>$160,000 negociable</p>
+              <p>Riviera Colonial</p>
+            </div>
+            <div className="sub-info">
+              <p>3 Dormitorios</p>
+              <p>3 Baños</p>
+              <p>84 Mt2</p>
+              <Link className="nav-link" to="Riviera84">
+                <button>Ver Detalles</button>
+              </Link>
+            </div>
+          </div>
+
+          {/* ROW 4 */}
 
           <div className="row">
             <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="riviera_84_2">
+              <Link className="nav-link" to="riviera_84_2">
                 <img src={riviera_84_2} />
               </Link>
               <div className="main-info">
@@ -209,14 +210,14 @@ function Sales () {
                 <p>3 Dormitorios</p>
                 <p>3 Baños</p>
                 <p>84 Mt2</p>
-              <Link  className="nav-link" to="riviera_84_2">
-                <button>Ver Detalles</button>
-              </Link>
+                <Link className="nav-link" to="riviera_84_2">
+                  <button>Ver Detalles</button>
+                </Link>
               </div>
             </div>
 
             <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="praderas">
+              <Link className="nav-link" to="praderas">
                 <img src={praderas} />
               </Link>
               <div className="main-info">
@@ -227,14 +228,14 @@ function Sales () {
                 <p>7 Dormitorios</p>
                 <p>7 Baños</p>
                 <p>16000 Mt2</p>
-              <Link  className="nav-link" to="praderas">
-                <button>Ver Detalles</button>
-              </Link>
+                <Link className="nav-link" to="praderas">
+                  <button>Ver Detalles</button>
+                </Link>
               </div>
             </div>
 
             <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="praderas">
+              <Link className="nav-link" to="praderas">
                 <img src={samana} />
               </Link>
               <div className="main-info">
@@ -245,19 +246,37 @@ function Sales () {
                 <p>32 Dormitorios</p>
                 <p>32 Baños</p>
                 <p>28,000 Mt2</p>
-              <Link  className="nav-link" to="praderas">
-                <button>Ver Detalles</button>
-              </Link>
+                <Link className="nav-link" to="praderas">
+                  <button>Ver Detalles</button>
+                </Link>
               </div>
             </div>
-          
+
           </div>
-  
-{/* ROW 5 */}
+
+          {/* ROW 5 */}
 
           <div className="row">
+
             <div className="info col-md-4 sales-piece">
-              <Link  className="nav-link" to="paseo200">
+              <Link className="nav-link" to="roraima">
+                <img src={roraima} />
+              </Link>
+              <div className="main-info">
+                <p>$212,000 USD</p>
+                <p>Torre Roraima</p>
+              </div>
+              <div className="sub-info">
+                <p>1 Dormitorio</p>
+                <p>1.5 Baños</p>
+                <p>73 Mt2</p>
+                <Link className="nav-link" to="roraima">
+                  <button>Ver Detalles</button>
+                </Link>
+              </div>
+            </div>
+            <div className="info col-md-4 sales-piece">
+              <Link className="nav-link" to="paseo200">
                 <img src={paseo_200} />
               </Link>
               <div className="main-info">
@@ -268,19 +287,19 @@ function Sales () {
                 <p>3 Dormitorios</p>
                 <p>4.5 Baños</p>
                 <p>200 Mt2</p>
-                <Link  className="nav-link" to="paseo200">
+                <Link className="nav-link" to="paseo200">
                   <button>Ver Detalles</button>
                 </Link>
               </div>
             </div>
           </div>
 
-        </div>   
-      </div>      
+        </div>
+      </div>
 
       <Footer />
     </>
-    )
+  )
 }
 
 export default Sales;

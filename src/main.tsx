@@ -26,47 +26,49 @@ import Riviera115 from './components/pages/sales/Riviera115'
 import Riviera84 from './components/pages/sales/Riviera84'
 import Riviera84_2 from './components/pages/sales/Riviera84_2'
 import Paseo200 from './components/pages/sales/Paseo200'
-import Praderas       from './components/pages/sales/Praderas'
-import Independencia  from './components/pages/sales/Independencia'
+import Praderas from './components/pages/sales/Praderas'
+import Independencia from './components/pages/sales/Independencia'
 
 import Melvin from './components/melvin/App'
 import Motion from './components/includes/motion/Motion'
 import Sticky from './components/sticky-nav/Main'
+import Roraima from './components/pages/sales/roraima'
 
 const router = createBrowserRouter([
-  {path:"/", element: <App />},
-  {path:"*", element: <NotFound />},
-  {path:"/contact", element: <Contact />},
-  {path:"/sales", element: <Sales />},
-  {path:"/about", element: <About />},
-  {path:"/rentals", element: <Rentals />},
-  {path:"/sales/riviera-4b", element: <Riviera4B />},
-  {path:"/sales/Samana", element: <Samana />},
-  {path:"/sales/PuntaCana", element: <PuntaCana />},
-  {path:"/sales/RivieraPentHouse", element: <RivieraPentHouse />},
-  {path:"/sales/Riviera118", element: <Riviera118 />},
-  {path:"/sales/Paseo220", element: <Paseo220 />},
-  {path:"/sales/Paseo220", element: <Paseo220 />},
-  {path:"/sales/Paseo190", element: <Paseo190 />},
-  {path:"/sales/Paseo165", element: <Paseo165 />},
-  {path:"/sales/Riviera135", element: <Riviera135 />},
-  {path:"/sales/Riviera115", element: <Riviera115 />},
-  {path:"/sales/Riviera84", element: <Riviera84 />},
-  {path:"/sales/riviera_84_2", element: <Riviera84_2 />},
-  {path:"/sales/independencia", element: <Independencia />},
+  { path: "/", element: <App /> },
+  { path: "*", element: <NotFound /> },
+  { path: "/contact", element: <Contact /> },
+  { path: "/sales", element: <Sales /> },
+  { path: "/about", element: <About /> },
+  { path: "/rentals", element: <Rentals /> },
+  { path: "/sales/riviera-4b", element: <Riviera4B /> },
+  { path: "/sales/Samana", element: <Samana /> },
+  { path: "/sales/PuntaCana", element: <PuntaCana /> },
+  { path: "/sales/RivieraPentHouse", element: <RivieraPentHouse /> },
+  { path: "/sales/Riviera118", element: <Riviera118 /> },
+  { path: "/sales/Paseo220", element: <Paseo220 /> },
+  { path: "/sales/Paseo220", element: <Paseo220 /> },
+  { path: "/sales/Paseo190", element: <Paseo190 /> },
+  { path: "/sales/Paseo165", element: <Paseo165 /> },
+  { path: "/sales/Riviera135", element: <Riviera135 /> },
+  { path: "/sales/Riviera115", element: <Riviera115 /> },
+  { path: "/sales/Riviera84", element: <Riviera84 /> },
+  { path: "/sales/riviera_84_2", element: <Riviera84_2 /> },
+  { path: "/sales/independencia", element: <Independencia /> },
 
-  {path:"/rentals/Riviera4B", element: <RentalsRiviera4B />},
-  {path:"/rentals/Riviera118", element: <RentalsRiviera118 />},
-  {path:"/rentals/plaza", element: <RentalsPlaza />},
-  
-  {path:"/rentals/Paseo165", element: <RentalsPaseo165 />},
-  {path:"/sales/Paseo200", element: <Paseo200 />},
-  {path:"/sales/Praderas", element: <Praderas />},
-  {path:"/melvin", element: <Melvin />},
-  {path:"/motion", element: <Motion />},
-  {path:"/sticky", element: <Sticky />}
+  { path: "/rentals/Riviera4B", element: <RentalsRiviera4B /> },
+  { path: "/rentals/Riviera118", element: <RentalsRiviera118 /> },
+  { path: "/rentals/plaza", element: <RentalsPlaza /> },
+
+  { path: "/rentals/Paseo165", element: <RentalsPaseo165 /> },
+  { path: "/sales/Paseo200", element: <Paseo200 /> },
+  { path: "/sales/Praderas", element: <Praderas /> },
+  { path: "/sales/roraima", element: <Roraima /> },
+  { path: "/melvin", element: <Melvin /> },
+  { path: "/motion", element: <Motion /> },
+  { path: "/sticky", element: <Sticky /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <RouterProvider router={router} />
+  <RouterProvider router={router} />
 )

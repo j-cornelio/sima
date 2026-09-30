@@ -14,6 +14,14 @@ body#app ul li {
     font-size: 16px;
 }
 
+body#app ul li {
+    list-style: square;
+}
+
+body#app ul li::marker {
+    color: peru;
+}
+
 #header,
 #footer {
     background: var(--brand-green)
@@ -114,6 +122,7 @@ ul.navbar-nav {
     height: 333px;
     width: 250px;
 }
+
 #sales .sub-info button {
     padding: 4px 20px;
     background-color: rgb(204, 170, 121);
