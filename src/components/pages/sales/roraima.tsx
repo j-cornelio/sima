@@ -11,6 +11,7 @@ import image6 from '../../../images/sales/roraima/6.png'
 import image7 from '../../../images/sales/roraima/7.png'
 import image8 from '../../../images/sales/roraima/8.png'
 import image9 from '../../../images/sales/roraima/9.png'
+import video from '../../../images/sales/roraima/terrace.mp4'
 import { useEffect } from 'react';
 
 function Paseo200() {
@@ -112,6 +113,10 @@ function Paseo200() {
                             <li>Area de niños</li>
                             <li>Salon de eventos</li>
                             <li>Sauna</li>
+
+                            <video width="250px" height="333px" autoPlay muted loop>
+                                <source src={video} type="video/mp4" />
+                            </video>
                         </ul>
                     </div>
                     <div className="col-md-6 contact">
