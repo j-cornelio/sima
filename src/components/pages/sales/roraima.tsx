@@ -26,7 +26,7 @@ function Paseo200() {
                 <div className="row top-section">
                     <div id="heading" className="col-md-12">
                         <h1>Hermoso Apartamento en torre Roraima</h1>
-                        <h5>area</h5>
+                        <h5>Sector de Evaristo Morales</h5>
                     </div>
                     {/* CAROUSEL */}
                     <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -89,7 +89,7 @@ function Paseo200() {
                 </div>
                 <div className="row">
                     <div className="col-md-6 content">
-                        <h1 className="price">Precio: $212,000 USD</h1>
+                        <h1 className="price">Precio: $214,000 USD</h1>
                         <div className="icons">
                             <p><i className="fa-solid fa-bed"></i> <span>1 Habitacion</span></p>
                             <p><i className="fa-solid fa-bath"></i> <span>1.5 Baños</span></p>
