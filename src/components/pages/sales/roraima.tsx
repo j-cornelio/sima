@@ -107,16 +107,15 @@ function Paseo200() {
 
                             <li className="areas-header">Áreas Sociales:</li>
 
+                            <video width="250px" height="333px" autoPlay muted loop>
+                                <source src={video} type="video/mp4" />
+                            </video>
                             <li>2 Terrazas</li>
                             <li>Gimnasio</li>
                             <li>2 piscinas</li>
                             <li>Area de niños</li>
                             <li>Salon de eventos</li>
                             <li>Sauna</li>
-
-                            <video width="250px" height="333px" autoPlay muted loop>
-                                <source src={video} type="video/mp4" />
-                            </video>
                         </ul>
                     </div>
                     <div className="col-md-6 contact">
